@@ -1,0 +1,226 @@
+
+models/mapobjects/sponza/lion
+{
+	////noshadows
+
+	diffusemap models/mapobjects/sponza/textures/lion.tga
+	bumpmap models/mapobjects/sponza/textures/lion_ddn.tga
+}
+
+models/mapobjects/sponza/leaf
+{
+	////noshadows
+
+	diffusemap models/mapobjects/sponza/textures/sponza_thorn_diff.tga
+	bumpmap models/mapobjects/sponza/textures/sponza_thorn_ddn.tga
+}
+
+/*
+newmtl leaf
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\sponza_thorn_diff.tga
+	map_Kd textures\sponza_thorn_diff.tga
+	map_d textures\sponza_thorn_mask.tga
+	map_bump textures\sponza_thorn_ddn.tga
+	bump textures\sponza_thorn_ddn.tga
+*/
+
+models/mapobjects/sponza/vase/round
+{
+	//noshadows
+
+	diffusemap models/mapobjects/sponza/textures/vase_round.tga
+	bumpmap models/mapobjects/sponza/textures/vase_round_ddn.tga
+}
+
+models/mapobjects/sponza/vase/plant
+{
+	//noshadows
+
+	{
+		blend diffusemap
+		map models/mapobjects/sponza/textures/vase_plant.tga
+		alphaTest 0.5
+	}
+}
+
+models/mapobjects/sponza/vase/hanging
+{
+	//noshadows
+
+	diffusemap models/mapobjects/sponza/textures/vase_hanging.tga
+}
+
+models/mapobjects/sponza/vase
+{
+	//noshadows
+
+	diffusemap models/mapobjects/sponza/textures/vase_dif.tga
+}
+
+
+
+models/mapobjects/sponza/background
+{
+	//noshadows
+
+	diffusemap models/mapobjects/sponza/textures/background.tga
+	bumpmap models/mapobjects/sponza/textures/background_ddn.tga
+}
+
+models/mapobjects/sponza/gi_flag
+{
+	//noshadows
+
+	diffusemap models/mapobjects/sponza/textures/gi_flag.tga
+}
+
+models/mapobjects/sponza/bricks
+{
+	//noshadows
+
+	diffusemap models/mapobjects/sponza/textures/spnza_bricks_a_diff.tga
+	bumpmap models/mapobjects/sponza/textures/spnza_bricks_a_diff.tga
+}
+
+models/mapobjects/sponza/arch
+{
+	//noshadows
+
+	diffusemap models/mapobjects/sponza/textures/sponza_arch_diff.tga
+}
+
+models/mapobjects/sponza/ceiling
+{
+	//noshadows
+
+	diffusemap models/mapobjects/sponza/textures/sponza_ceiling_a_diff.tga
+}
+
+models/mapobjects/sponza/column/a
+{
+	//noshadows
+
+	diffusemap models/mapobjects/sponza/textures/sponza_column_a_diff.tga
+	bumpmap models/mapobjects/sponza/textures/sponza_column_a_ddn.tga
+}
+
+models/mapobjects/sponza/column/b
+{
+	//noshadows
+
+	diffusemap models/mapobjects/sponza/textures/sponza_column_b_diff.tga
+	bumpmap models/mapobjects/sponza/textures/sponza_column_b_ddn.tga
+}
+
+
+models/mapobjects/sponza/column/c
+{
+	//noshadows
+
+	diffusemap models/mapobjects/sponza/textures/sponza_column_c_diff.tga
+	bumpmap models/mapobjects/sponza/textures/sponza_column_c_ddn.tga
+}
+
+models/mapobjects/sponza/floor
+{
+	//noshadows
+
+	diffusemap models/mapobjects/sponza/textures/sponza_floor_a_diff.tga
+}
+
+
+models/mapobjects/sponza/details
+{
+	//noshadows
+
+	diffusemap models/mapobjects/sponza/textures/sponza_details_diff.tga
+}
+
+models/mapobjects/sponza/material__47
+{
+	//noshadows
+
+	diffusemap _white
+}
+
+models/mapobjects/sponza/flagpole
+{
+	//noshadows
+
+	diffusemap models/mapobjects/sponza/textures/sponza_flagpole_diff.tga
+}
+
+models/mapobjects/sponza/fabric/e
+{
+	//noshadows
+
+	diffusemap models/mapobjects/sponza/textures/sponza_fabric_green_diff.tga
+}
+ 
+models/mapobjects/sponza/fabric/d
+{
+	//noshadows
+
+	diffusemap models/mapobjects/sponza/textures/sponza_fabric_blue_diff.tga
+}
+
+models/mapobjects/sponza/fabric/a
+{
+	//noshadows
+
+	diffusemap models/mapobjects/sponza/textures/sponza_fabric_diff.tga
+}
+
+models/mapobjects/sponza/fabric/g
+{
+	//noshadows
+
+	diffusemap models/mapobjects/sponza/textures/sponza_curtain_blue_diff.tga
+}
+
+models/mapobjects/sponza/fabric/c
+{
+	//noshadows
+
+	diffusemap models/mapobjects/sponza/textures/sponza_curtain_diff.tga
+}
+
+models/mapobjects/sponza/fabric/f
+{
+	//noshadows
+
+	diffusemap models/mapobjects/sponza/textures/sponza_curtain_green_diff.tga
+}
+
+models/mapobjects/sponza/chain
+{
+	//noshadows
+
+	{
+		blend diffusemap
+		map models/mapobjects/sponza/textures/chain_texture.tga
+		alphaTest 0.5
+	}
+	
+	bumpmap models/mapobjects/sponza/textures/chain_texture_ddn.tga
+}
+
+models/mapobjects/sponza/roof
+{
+	//noshadows
+
+	diffusemap models/mapobjects/sponza/textures/sponza_roof_diff.tga
+}
+
+
+
