@@ -3,7 +3,7 @@
     "entities": [
         {
             "name": "material-orb-doom",
-            "model": "models/mapobjects/material-orb/material-orb-high.dae",
+            "model": "models/mapobjects/materialorb/material-orb-high.dae",
             "classname": "func_static",
             "origin": "0.000000 0.000000 0.000000"
         },

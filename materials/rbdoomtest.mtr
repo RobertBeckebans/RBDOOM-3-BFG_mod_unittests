@@ -1,0 +1,17 @@
+
+textures/rbdoomtest/ibltest1
+{ 
+	qer_editorimage env/testmap_1_px.tga
+	noFragment 
+	noshadows 
+	nooverlays 
+	forceOpaque
+	
+	{ 
+		blend add
+		uncompressedCubeMap
+		cubeMap	env/testmap_1_spec
+		texgen skybox 
+		//texgen wobblesky .0 .0 .0 
+	} 
+} 

@@ -1,0 +1,13 @@
+
+
+models/mapobjects/materialorb/container
+{
+	diffusemap models/mapobjects/materialorb/substance/metal006_basecolor.png
+	bumpmap models/mapobjects/materialorb/substance/metal006_normal.png
+}
+
+models/mapobjects/materialorb/base
+{
+	diffusemap models/mapobjects/materialorb/substance/metal006_basecolor.png
+	bumpmap models/mapobjects/materialorb/substance/metal006_normal.png
+} 

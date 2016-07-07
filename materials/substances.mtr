@@ -1,0 +1,7 @@
+
+
+substances/wood/american/cherry
+{
+	diffusemap models/mapobjects/materialorb/substance/wood_american_cherry_basecolor.png
+	bumpmap models/mapobjects/materialorb/substance/wood_american_cherry_normal.png
+}
