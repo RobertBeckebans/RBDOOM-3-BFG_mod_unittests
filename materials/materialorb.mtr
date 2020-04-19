@@ -1,10 +1,10 @@
 
 
-models/mapobjects/materialorb/container
+models/mapobjects/materialorb/orb
 {
-	basecolormap models/mapobjects/materialorb/substance/metal006_basecolor.png
-	normalmap models/mapobjects/materialorb/substance/metal006_normal.png
-	specularmap models/mapobjects/materialorb/substance/metal006_rmao.png
+	basecolormap models/mapobjects/materialorb/substance/metal04_basecolor.png
+	normalmap models/mapobjects/materialorb/substance/metal04_normal.png
+	specularmap models/mapobjects/materialorb/substance/metal04_rmao.png
 }
 
 models/mapobjects/materialorb/base
