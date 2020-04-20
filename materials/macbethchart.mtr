@@ -1,0 +1,54 @@
+
+
+models/mapobjects/pbr/macbethchart/chart
+{
+	basecolormap models/mapobjects/pbr/macbethchart/images/chart1.png
+	normalmap _flat
+	//specularmap _flat
+}
+
+models/mapobjects/pbr/macbethchart/white
+{
+	basecolormap _white
+	normalmap _flat
+}
+
+models/mapobjects/pbr/macbethchart/chrome
+{
+	basecolormap _white
+	normalmap _flat
+	specularmap _chromeSpec
+}
+
+models/mapobjects/pbr/macbethchart/bluish
+{
+	basecolormap _cyan
+	normalmap _flat
+	specularmap _plasticSpec
+}
+
+models/mapobjects/pbr/macbethchart/glass
+{
+	translucent
+	twoSided
+	noshadows
+	//glass
+	
+	qer_editorimage textures/sfx/mc_medglass
+
+	{	
+		maskcolor				
+	    map	makealpha(textures/sfx/mc_medglass.tga)
+
+	}
+	{
+	    blend gl_dst_alpha, gl_one
+	    maskalpha
+       	cubeMap		env/gen2
+        texgen		reflect
+		red .7	
+		green .9
+		blue  .9
+
+	}
+}

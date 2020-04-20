@@ -1,0 +1,7 @@
+
+
+skin skins/materialorb_wood
+{
+	model models/mapobjects/pbr/materialorb/material-orb-high.dae
+	models/mapobjects/materialorb/orb		models/mapobjects/materialorb/wood
+}

@@ -2,22 +2,29 @@
 
 models/mapobjects/materialorb/orb
 {
-	basecolormap models/mapobjects/materialorb/substance/metal04_basecolor.png
-	normalmap models/mapobjects/materialorb/substance/metal04_normal.png
-	specularmap models/mapobjects/materialorb/substance/metal04_rmao.png
+	basecolormap models/mapobjects/pbr/materialorb/substance/metal04_basecolor.png
+	normalmap models/mapobjects/pbr/materialorb/substance/metal04_normal.png
+	specularmap models/mapobjects/pbr/materialorb/substance/metal04_rmao.png
+}
+
+models/mapobjects/materialorb/wood
+{
+	basecolormap models/mapobjects/pbr/materialorb/substance/wood_american_cherry_basecolor.png
+	//normalmap models/mapobjects/pbr/materialorb/substance/wood_american_cherry_normal.png
+	normalmap models/mapobjects/pbr/materialorb/substance/metal006_normal.png
+	specularmap models/mapobjects/pbr/materialorb/substance/wood_american_cherry_rmao.png
 }
 
 models/mapobjects/materialorb/base
 {
-	basecolormap models/mapobjects/materialorb/substance/metal006_basecolor.png
-	normalmap models/mapobjects/materialorb/substance/metal006_normal.png
-	specularmap models/mapobjects/materialorb/substance/metal006_rmao.png
+	basecolormap models/mapobjects/pbr/materialorb/substance/metal006_basecolor.png
+	normalmap models/mapobjects/pbr/materialorb/substance/metal006_normal.png
+	specularmap models/mapobjects/pbr/materialorb/substance/metal006_rmao.png
 }
-
 
 models/mapobjects/materialorb/pbrspheres
 {
 	basecolormap _white
 	normalmap _flat
-	specularmap models/mapobjects/materialorb/images/pbrspheres_rmao.png
+	specularmap models/mapobjects/pbr/materialorb/images/pbrspheres_rmao.png
 }
