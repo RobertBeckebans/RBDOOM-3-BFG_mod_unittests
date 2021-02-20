@@ -112,7 +112,7 @@ Version 2
 "nodiffuse" "0"
 "falloff" "0"
 "texture" "lights/ambientlight1"
-"_color" "0.13 0.13 0.13"
+"_color" "0.43 0.43 0.43"
 "light_radius" "2000 2000 2000"
 "light_center" "0 0 32"
 "parallel" "1"

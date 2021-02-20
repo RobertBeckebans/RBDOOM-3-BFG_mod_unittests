@@ -2,3 +2,7 @@
 .autosave*
 *.blend1
 *.blend2
+generated*
+exported*
+screenshots*
+_hide*
