@@ -13,9 +13,9 @@ RBDOOM-3-BFG Unittests for mod makers - https://github.com/RobertBeckebans/RBDOO
 
 ---
 
-# Unittests
+# Unit Tests
 
-Here you will find small example maps which are used for basic engine feature testing.
+Here you will find small example maps which are used for basic engine feature testing. All maps will be editable with TrenchBroom.
 
 ## Welcome to DOOM 3 BFG (hello world) - maps/testmaps/test_box_valve220
 <img src="https://i.imgur.com/UQxTLgW.png" width="384">
@@ -25,9 +25,11 @@ The not so empty test_box created in TrenchBroom with the new Doom 3 (Valve) .ma
 ## PBR Material Test - maps/testmaps/test_pbr_orbs.map
 <img src="https://i.imgur.com/DHSrJXs.png" width="384">
 
-The not so empty test_box created in TrenchBroom with the new Doom 3 (Valve) .map configuratio
+Small material test with standard PBR materials wrapped onto the Blender material ORB
+
+# Other Samples
 
 ## Crytek's Sponza Atrium - maps/sponza
-<img src="https://i.imgur.com/w2WZtUv.png" width="384">
+<img src="https://i.imgur.com/v7bU2Zd.png" width="384">
 
 The classic Sponza Atrium

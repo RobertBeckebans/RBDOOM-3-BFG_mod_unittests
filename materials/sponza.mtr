@@ -34,7 +34,7 @@ newmtl leaf
 	bump textures\sponza_thorn_ddn.tga
 */
 
-models/mapobjects/sponza/vase/round
+models/mapobjects/sponza/vase_round
 {
 	//noshadows
 
@@ -42,7 +42,7 @@ models/mapobjects/sponza/vase/round
 	bumpmap models/mapobjects/sponza/textures/vase_round_ddn.tga
 }
 
-models/mapobjects/sponza/vase/plant
+models/mapobjects/sponza/vase_plant
 {
 	//noshadows
 
@@ -53,7 +53,7 @@ models/mapobjects/sponza/vase/plant
 	}
 }
 
-models/mapobjects/sponza/vase/hanging
+models/mapobjects/sponza/vase_hanging
 {
 	//noshadows
 
@@ -106,7 +106,7 @@ models/mapobjects/sponza/ceiling
 	diffusemap models/mapobjects/sponza/textures/sponza_ceiling_a_diff.tga
 }
 
-models/mapobjects/sponza/column/a
+models/mapobjects/sponza/column_a
 {
 	//noshadows
 
@@ -114,7 +114,7 @@ models/mapobjects/sponza/column/a
 	bumpmap models/mapobjects/sponza/textures/sponza_column_a_ddn.tga
 }
 
-models/mapobjects/sponza/column/b
+models/mapobjects/sponza/column_b
 {
 	//noshadows
 
@@ -123,7 +123,7 @@ models/mapobjects/sponza/column/b
 }
 
 
-models/mapobjects/sponza/column/c
+models/mapobjects/sponza/column_c
 {
 	//noshadows
 
@@ -160,42 +160,42 @@ models/mapobjects/sponza/flagpole
 	diffusemap models/mapobjects/sponza/textures/sponza_flagpole_diff.tga
 }
 
-models/mapobjects/sponza/fabric/e
+models/mapobjects/sponza/fabric_e
 {
 	//noshadows
 
 	diffusemap models/mapobjects/sponza/textures/sponza_fabric_green_diff.tga
 }
  
-models/mapobjects/sponza/fabric/d
+models/mapobjects/sponza/fabric_d
 {
 	//noshadows
 
 	diffusemap models/mapobjects/sponza/textures/sponza_fabric_blue_diff.tga
 }
 
-models/mapobjects/sponza/fabric/a
+models/mapobjects/sponza/fabric_a
 {
 	//noshadows
 
 	diffusemap models/mapobjects/sponza/textures/sponza_fabric_diff.tga
 }
 
-models/mapobjects/sponza/fabric/g
+models/mapobjects/sponza/fabric_g
 {
 	//noshadows
 
 	diffusemap models/mapobjects/sponza/textures/sponza_curtain_blue_diff.tga
 }
 
-models/mapobjects/sponza/fabric/c
+models/mapobjects/sponza/fabric_c
 {
 	//noshadows
 
 	diffusemap models/mapobjects/sponza/textures/sponza_curtain_diff.tga
 }
 
-models/mapobjects/sponza/fabric/f
+models/mapobjects/sponza/fabric_f
 {
 	//noshadows
 

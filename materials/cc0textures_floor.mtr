@@ -1,0 +1,7 @@
+
+
+textures/cc0textures_floor/Marble013_1K_Color
+{
+	diffusemap textures/cc0textures_floor/Marble013_1K_Color.png
+	normalmap textures/cc0textures_floor/Marble013_1K_Normal.png
+}
