@@ -10,8 +10,13 @@ models/mapobjects/sponza/lion
 models/mapobjects/sponza/leaf
 {
 	////noshadows
-
-	diffusemap models/mapobjects/sponza/textures/sponza_thorn_diff.tga
+	
+	{
+		blend diffusemap
+		map models/mapobjects/sponza/textures/sponza_thorn_diff_masked.tga
+		alphaTest 0.5
+	}
+	
 	bumpmap models/mapobjects/sponza/textures/sponza_thorn_ddn.tga
 }
 
@@ -48,7 +53,7 @@ models/mapobjects/sponza/vase_plant
 
 	{
 		blend diffusemap
-		map models/mapobjects/sponza/textures/vase_plant.tga
+		map models/mapobjects/sponza/textures/vase_plant_masked.tga
 		alphaTest 0.5
 	}
 }

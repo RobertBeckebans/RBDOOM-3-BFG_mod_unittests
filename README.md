@@ -30,6 +30,6 @@ Small material test with standard PBR materials wrapped onto the Blender materia
 # Other Samples
 
 ## Crytek's Sponza Atrium - maps/sponza
-<img src="https://i.imgur.com/v7bU2Zd.png" width="384">
+<img src="https://i.imgur.com/ckhPcwN.png" width="384">
 
 The classic Sponza Atrium
