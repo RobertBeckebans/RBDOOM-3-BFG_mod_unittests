@@ -1,7 +1,10 @@
 
 
-textures/cc0textures_floor/Marble013_1K_Color
+textures/cc0textures_floor/marble013
 {
+	qer_editorImage textures/cc0textures_floor/Marble013_1K_Color.png
+
 	diffusemap textures/cc0textures_floor/Marble013_1K_Color.png
 	normalmap textures/cc0textures_floor/Marble013_1K_Normal.png
+	specularmap textures/cc0textures_floor/Marble013_1K_rmao.png
 }

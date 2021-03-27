@@ -1,0 +1,9 @@
+newmtl models/mapobjects/signs/ceilingsign
+	map_Kd //..\..\..\models\mapobjects\signs\ceilingsign\ceilingsign_d.tga
+
+newmtl textures/common/entitygui
+	map_Kd //..\..\..\textures\editor\entityGui.tga
+
+newmtl textures/common/entitygui2
+	map_Kd //..\..\..\textures\editor\entityGui2.tga
+

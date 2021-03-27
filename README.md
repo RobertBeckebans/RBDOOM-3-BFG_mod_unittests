@@ -23,7 +23,7 @@ Here you will find small example maps which are used for basic engine feature te
 The not so empty test_box created in TrenchBroom with the new Doom 3 (Valve) .map configuration
 
 ## PBR Material Test - maps/testmaps/test_pbr_orbs.map
-<img src="https://i.imgur.com/DHSrJXs.png" width="384">
+<img src="https://i.imgur.com/O3bCWMf.png" width="384">
 
 Small material test with standard PBR materials wrapped onto the Blender material ORB
 

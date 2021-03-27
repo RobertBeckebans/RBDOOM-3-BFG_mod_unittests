@@ -3,44 +3,44 @@
 // entity 0
 {
 "classname" "worldspawn"
-"_tb_textures" "textures/cc0textures_floor"
-"_tb_def" "builtin:DOOM-3-all.fgd"
+"_tb_textures" "textures/base_wall;textures/cc0textures_floor"
+"_tb_def" "builtin:DOOM-3-slim.fgd"
 "_tb_mod" "mod_unittests"
 // brush 0
 {
-( -192 0 0 ) ( -192 1 0 ) ( -192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
-( 0 -128 0 ) ( 0 -128 -1 ) ( -1 -128 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
-( 0 0 256 ) ( -1 0 256 ) ( 0 -1 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
-( 0 0 272 ) ( 1 0 272 ) ( 0 -1 272 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
-( 0 256 0 ) ( 0 256 1 ) ( -1 256 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
-( 192 0 0 ) ( 192 -1 0 ) ( 192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -960 256 272 ) ( -960 -128 272 ) ( -960 -128 256 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -960 -128 272 ) ( 192 -128 272 ) ( 192 -128 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 192 -128 256 ) ( 192 256 256 ) ( -960 256 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( -960 256 272 ) ( 192 256 272 ) ( 192 -128 272 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 192 256 256 ) ( 192 256 272 ) ( -960 256 272 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 192 -128 272 ) ( 192 256 272 ) ( 192 256 256 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
 }
 // brush 1
 {
-( -192 0 0 ) ( -192 1 0 ) ( -192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
-( 0 -128 0 ) ( 0 -128 -1 ) ( -1 -128 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
-( 0 0 -16 ) ( -1 0 -16 ) ( 0 -1 -16 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
-( 0 0 0 ) ( 1 0 0 ) ( 0 -1 0 ) cc0textures_floor/Marble013_1K_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.125 0.125 0 0 0
-( 0 256 0 ) ( 0 256 1 ) ( -1 256 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
-( 192 0 0 ) ( 192 -1 0 ) ( 192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -960 256 0 ) ( -960 -128 0 ) ( -960 -128 -16 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -960 -128 0 ) ( 192 -128 0 ) ( 192 -128 -16 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 192 -128 -16 ) ( 192 256 -16 ) ( -960 256 -16 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( -960 256 0 ) ( 192 256 0 ) ( 192 -128 0 ) cc0textures_floor/marble013 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.125 0.125 0 0 0
+( 192 256 -16 ) ( 192 256 0 ) ( -960 256 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 192 -128 0 ) ( 192 256 0 ) ( 192 256 -16 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
 }
 // brush 2
 {
-( -192 0 0 ) ( -192 1 0 ) ( -192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
-( 0 256 0 ) ( 0 256 -1 ) ( -1 256 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
-( 0 0 0 ) ( -1 0 0 ) ( 0 -1 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
-( 0 0 256 ) ( 1 0 256 ) ( 0 -1 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
-( 0 272 0 ) ( 0 272 1 ) ( -1 272 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
-( 192 0 0 ) ( 192 -1 0 ) ( 192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -960 272 256 ) ( -960 256 256 ) ( -960 256 0 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -960 256 256 ) ( 192 256 256 ) ( 192 256 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 192 256 0 ) ( 192 272 0 ) ( -960 272 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( -960 272 256 ) ( 192 272 256 ) ( 192 256 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 192 272 0 ) ( 192 272 256 ) ( -960 272 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 192 256 256 ) ( 192 272 256 ) ( 192 272 0 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
 }
 // brush 3
 {
-( -192 0 0 ) ( -192 1 0 ) ( -192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
-( 0 -144 0 ) ( 0 -144 -1 ) ( -1 -144 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
-( 0 0 0 ) ( -1 0 0 ) ( 0 -1 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
-( 0 0 256 ) ( 1 0 256 ) ( 0 -1 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
-( 0 -128 0 ) ( 0 -128 1 ) ( -1 -128 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
-( 192 0 0 ) ( 192 -1 0 ) ( 192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -960 -128 256 ) ( -960 -144 256 ) ( -960 -144 0 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -960 -144 256 ) ( 192 -144 256 ) ( 192 -144 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 192 -144 0 ) ( 192 -128 0 ) ( -960 -128 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( -960 -128 256 ) ( 192 -128 256 ) ( 192 -144 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 192 -128 0 ) ( 192 -128 256 ) ( -960 -128 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 192 -144 256 ) ( 192 -128 256 ) ( 192 -128 0 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
 }
 // brush 4
 {
@@ -53,39 +53,12 @@
 }
 // brush 5
 {
-( -208 0 0 ) ( -208 1 0 ) ( -208 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
-( 0 -128 0 ) ( 0 -128 -1 ) ( -1 -128 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
-( 0 0 0 ) ( -1 0 0 ) ( 0 -1 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
-( 0 0 256 ) ( 1 0 256 ) ( 0 -1 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
-( 0 256 0 ) ( 0 256 1 ) ( -1 256 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
-( -192 0 0 ) ( -192 -1 0 ) ( -192 0 1 ) base_wall/snpanel2rust [ 0 -1 0 -128 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
-}
-// brush 6
-{
-( -40 -56 32 ) ( -40 -120 32 ) ( -40 -120 0 ) base_wall/snpanel2rust [ 0 -1 0 -48 ] [ 0 0 -1 -32 ] 0 0.5 0.5 0 0 0
-( -40 -120 32 ) ( 40 -120 32 ) ( 40 -120 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 -32 ] 0 0.5 0.5 0 0 0
-( 40 -120 0 ) ( 40 -56 0 ) ( -40 -56 0 ) base_wall/snpanel2rust [ -1 0 0 0 ] [ 0 -1 0 -48 ] 0 0.5 0.5 0 0 0
-( -40 -56 32 ) ( 40 -56 32 ) ( 40 -120 32 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 -48 ] 0 0.5 0.5 0 0 0
-( 40 -56 0 ) ( 40 -56 32 ) ( -40 -56 32 ) base_wall/snpanel2rust [ -1 0 0 0 ] [ 0 0 -1 -32 ] 0 0.5 0.5 0 0 0
-( 40 -120 32 ) ( 40 -56 32 ) ( 40 -56 0 ) base_wall/snpanel2rust [ 0 1 0 48 ] [ 0 0 -1 -32 ] 0 0.5 0.5 0 0 0
-}
-// brush 7
-{
-( -32 -112 40 ) ( -40 -120 32 ) ( -40 -56 32 ) base_wall/snpanel2rust [ 0 -1 0 -48 ] [ 1 0 0 -6.0717926025 ] 0 0.5 0.5 0 0 0
-( 32 -112 40 ) ( 40 -120 32 ) ( -40 -120 32 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 1 0 10.0858154297 ] 0 0.5 0.5 0 0 0
-( 40 -120 32 ) ( 40 -56 32 ) ( -40 -56 32 ) base_wall/snpanel2rust [ -1 0 0 0 ] [ 0 -1 0 -48 ] 0 0.5 0.5 0 0 0
-( -32 -64 40 ) ( 32 -64 40 ) ( 32 -112 40 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 -48 ] 0 0.5 0.5 0 0 0
-( 32 -64 40 ) ( -32 -64 40 ) ( -40 -56 32 ) base_wall/snpanel2rust [ -1 0 0 0 ] [ 0 -1 0 -85.9141845703 ] 0 0.5 0.5 0 0 0
-( 40 -120 32 ) ( 32 -112 40 ) ( 32 -64 40 ) base_wall/snpanel2rust [ 0 1 0 48 ] [ -1 0 0 -38.0717926025 ] 0 0.5 0.5 0 0 0
-}
-// brush 8
-{
-( -30 -54 28 ) ( -30 -56 28 ) ( -30 -56 6 ) cc0textures_floor/Marble013_1K_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
-( -30 -56 28 ) ( 30 -56 28 ) ( 30 -56 6 ) cc0textures_floor/Marble013_1K_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
-( 30 -56 6 ) ( 30 -54 6 ) ( -30 -54 6 ) cc0textures_floor/Marble013_1K_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
-( -30 -54 28 ) ( 30 -54 28 ) ( 30 -56 28 ) cc0textures_floor/Marble013_1K_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
-( 30 -54 6 ) ( 30 -54 28 ) ( -30 -54 28 ) cc0textures_floor/Marble013_1K_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
-( 30 -56 28 ) ( 30 -54 28 ) ( 30 -54 6 ) cc0textures_floor/Marble013_1K_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -976 0 0 ) ( -976 1 0 ) ( -976 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -768 -128 0 ) ( -768 -128 -1 ) ( -769 -128 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -768 0 0 ) ( -769 0 0 ) ( -768 -1 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( -768 0 256 ) ( -767 0 256 ) ( -768 -1 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( -768 256 0 ) ( -768 256 1 ) ( -769 256 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -960 0 0 ) ( -960 -1 0 ) ( -960 0 1 ) base_wall/snpanel2rust [ 0 1 0 128 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
 }
 }
 // entity 1
@@ -146,9 +119,8 @@
 // entity 6
 {
 "classname" "func_static"
-"name" "func_static_1"
 "model" "models/mapobjects/pbr/materialorb/material-orb.obj"
-"origin" "0 -88 40"
+"origin" "16 -88 0"
 "angle" "270"
 "skin" "skins/materialorb_wood.skin"
 }
@@ -176,14 +148,17 @@
 {
 "classname" "light"
 "origin" "96 64 168"
-"_color" "0.776471 0.776471 0.839216"
+"_color" "0.7765 0.7765 0.8392"
 "bind" "env_swinglight_sl64_2"
-"light" "150"
+"noshadows" "0"
+"nospecular" "0"
+"falloff" "0.000000"
+"light_radius" "150 150 150"
 }
 // entity 11
 {
 "classname" "light"
-"origin" "0 -16 220"
+"origin" "0 -16 156"
 "_color" "0.776471 0.776471 0.839216"
 "light" "225"
 }
@@ -194,4 +169,231 @@
 "model" "models/mapobjects/pbr/materialorb/pbr-spheres.dae"
 "origin" "156 64 10"
 "angle" "270"
+}
+// entity 13
+{
+"classname" "func_static"
+"model" "models/mapobjects/signs/ceilingsign/ceilingsign.obj"
+"origin" "-80 -125.072 109.072"
+"angles" "0 0 30"
+"gui" "guis/signs/directional.gui"
+"gui_parm1" "metal004"
+"gui_parm2" "Gold - metal007"
+}
+// entity 14
+{
+"classname" "light"
+"origin" "-288 64 168"
+"_color" "0.7765 0.7765 0.8392"
+"bind" "env_swinglight_sl64_3"
+"noshadows" "0"
+"nospecular" "0"
+"falloff" "0.000000"
+"light_radius" "150 150 150"
+}
+// entity 15
+{
+"classname" "env_swinglight_sl64"
+"origin" "-288 64 256"
+"name" "env_swinglight_sl64_3"
+}
+// entity 16
+{
+"classname" "light"
+"origin" "-480 64 168"
+"_color" "0.7765 0.7765 0.8392"
+"bind" "env_swinglight_sl64_4"
+"noshadows" "0"
+"nospecular" "0"
+"falloff" "0.000000"
+"light_radius" "150 150 150"
+}
+// entity 17
+{
+"classname" "env_swinglight_sl64"
+"origin" "-480 64 256"
+"name" "env_swinglight_sl64_4"
+}
+// entity 18
+{
+"classname" "light"
+"origin" "-672 64 168"
+"_color" "0.7765 0.7765 0.8392"
+"bind" "env_swinglight_sl64_5"
+"noshadows" "0"
+"nospecular" "0"
+"falloff" "0.000000"
+"light_radius" "150 150 150"
+}
+// entity 19
+{
+"classname" "env_swinglight_sl64"
+"origin" "-672 64 256"
+"name" "env_swinglight_sl64_5"
+}
+// entity 20
+{
+"classname" "light"
+"origin" "-864 64 168"
+"_color" "0.7765 0.7765 0.8392"
+"bind" "env_swinglight_sl64_6"
+"noshadows" "0"
+"nospecular" "0"
+"falloff" "0.000000"
+"light_radius" "150 150 150"
+}
+// entity 21
+{
+"classname" "env_swinglight_sl64"
+"origin" "-864 64 256"
+"name" "env_swinglight_sl64_6"
+}
+// entity 22
+{
+"classname" "light"
+"origin" "-320 192 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0"
+"_color" "0.78 0.78 0.84"
+"light" "150"
+}
+// entity 23
+{
+"classname" "light"
+"origin" "-320 -64 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0"
+"_color" "0.78 0.78 0.84"
+"light" "120"
+}
+// entity 24
+{
+"classname" "light"
+"origin" "-192 -16 156"
+"_color" "0.776471 0.776471 0.839216"
+"light" "225"
+}
+// entity 25
+{
+"classname" "light"
+"origin" "-512 192 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0"
+"_color" "0.78 0.78 0.84"
+"light" "150"
+}
+// entity 26
+{
+"classname" "light"
+"origin" "-512 -64 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0"
+"_color" "0.78 0.78 0.84"
+"light" "120"
+}
+// entity 27
+{
+"classname" "light"
+"origin" "-384 -16 156"
+"_color" "0.776471 0.776471 0.839216"
+"light" "225"
+}
+// entity 28
+{
+"classname" "light"
+"origin" "-704 192 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0"
+"_color" "0.78 0.78 0.84"
+"light" "150"
+}
+// entity 29
+{
+"classname" "light"
+"origin" "-704 -64 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0"
+"_color" "0.78 0.78 0.84"
+"light" "120"
+}
+// entity 30
+{
+"classname" "light"
+"origin" "-576 -16 156"
+"_color" "0.776471 0.776471 0.839216"
+"light" "225"
+}
+// entity 31
+{
+"classname" "light"
+"origin" "-896 192 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0"
+"_color" "0.78 0.78 0.84"
+"light" "150"
+}
+// entity 32
+{
+"classname" "light"
+"origin" "-896 -64 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0"
+"_color" "0.78 0.78 0.84"
+"light" "120"
+}
+// entity 33
+{
+"classname" "light"
+"origin" "-768 -16 156"
+"_color" "0.776471 0.776471 0.839216"
+"light" "225"
+}
+// entity 34
+{
+"classname" "func_static"
+"model" "models/mapobjects/pbr/materialorb/material-orb.obj"
+"origin" "80 -88 0"
+"angle" "270"
+}
+// entity 35
+{
+"classname" "func_static"
+"model" "models/mapobjects/signs/ceilingsign/ceilingsign.obj"
+"origin" "48 -125.072 109.072"
+"angles" "0 0 30"
+"gui" "guis/signs/directional.gui"
+"gui_parm1" "ORB base metal04"
+"gui_parm2" "Wood"
+}
+// entity 36
+{
+"classname" "func_static"
+"model" "models/mapobjects/pbr/materialorb/material-orb.obj"
+"origin" "-48 -88 0"
+"angle" "270"
+"skin" "skins/materialorb_metal002.skin"
+}
+// entity 37
+{
+"classname" "func_static"
+"model" "models/mapobjects/pbr/materialorb/material-orb.obj"
+"origin" "-112 -88 0"
+"angle" "270"
+"skin" "skins/materialorb_gold.skin"
 }

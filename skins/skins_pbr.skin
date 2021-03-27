@@ -5,3 +5,15 @@ skin skins/materialorb_wood
 	model models/mapobjects/pbr/materialorb/material-orb-high.dae
 	models/mapobjects/materialorb/orb		models/mapobjects/materialorb/wood
 }
+
+skin skins/materialorb_metal002
+{
+	model models/mapobjects/pbr/materialorb/material-orb-high.dae
+	models/mapobjects/materialorb/orb		models/mapobjects/materialorb/metal002
+}
+
+skin skins/materialorb_gold
+{
+	model models/mapobjects/pbr/materialorb/material-orb-high.dae
+	models/mapobjects/materialorb/orb		textures/cc0textures_metal/metal007
+}
