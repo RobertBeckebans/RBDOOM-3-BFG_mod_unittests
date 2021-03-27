@@ -5,6 +5,6 @@ textures/cc0textures_leather/leather011
 	qer_editorImage textures/cc0textures_leather/Leather011_1K_Color.png
 
 	diffusemap textures/cc0textures_leather/Leather011_1K_Color.png
-	normalmap textures/cc0textures_leather/Leather011_1K_Normal.png
+	normalmap invertGreen( textures/cc0textures_leather/Leather011_1K_Normal.png )
 	specularmap textures/cc0textures_leather/Leather011_1K_RMAO.png
 }
