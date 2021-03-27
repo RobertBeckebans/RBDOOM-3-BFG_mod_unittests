@@ -397,3 +397,29 @@
 "angle" "270"
 "skin" "skins/materialorb_gold.skin"
 }
+// entity 38
+{
+"classname" "func_static"
+"model" "models/mapobjects/pbr/materialorb/material-orb.obj"
+"origin" "-176 -88 0"
+"angle" "270"
+"skin" "skins/materialorb_brickwall"
+}
+// entity 39
+{
+"classname" "func_static"
+"model" "models/mapobjects/pbr/materialorb/material-orb.obj"
+"origin" "-240 -88 0"
+"angle" "270"
+"skin" "skins/materialorb_leather"
+}
+// entity 40
+{
+"classname" "func_static"
+"model" "models/mapobjects/signs/ceilingsign/ceilingsign.obj"
+"origin" "-208 -125.072 109.072"
+"angles" "0 0 30"
+"gui" "guis/signs/directional.gui"
+"gui_parm1" "Brick"
+"gui_parm2" "Leather"
+}
