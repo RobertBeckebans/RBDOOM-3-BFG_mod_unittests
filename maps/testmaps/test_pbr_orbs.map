@@ -76,9 +76,9 @@
 "noshadows" "0"
 "nospecular" "0"
 "nodiffuse" "0"
-"falloff" "0"
-"_color" "0.78 0.78 0.84"
-"light" "150"
+"falloff" "0.000000"
+"_color" "0 0 0"
+"light_radius" "150 150 150"
 }
 // entity 3
 {
@@ -88,9 +88,9 @@
 "noshadows" "0"
 "nospecular" "0"
 "nodiffuse" "0"
-"falloff" "0"
-"_color" "0.776471 0.776471 0.839216"
-"light" "150"
+"falloff" "0.000000"
+"_color" "0 0 0"
+"light_radius" "150 150 150"
 }
 // entity 4
 {
@@ -148,12 +148,13 @@
 {
 "classname" "light"
 "origin" "96 64 168"
-"_color" "0.7765 0.7765 0.8392"
+"_color" "0 0 0"
 "bind" "env_swinglight_sl64_2"
 "noshadows" "0"
 "nospecular" "0"
 "falloff" "0.000000"
 "light_radius" "150 150 150"
+"name" "light_0"
 }
 // entity 11
 {

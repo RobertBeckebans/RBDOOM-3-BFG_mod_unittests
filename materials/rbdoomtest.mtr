@@ -14,4 +14,37 @@ textures/rbdoomtest/ibltest1
 		texgen skybox 
 		//texgen wobblesky .0 .0 .0 
 	} 
-} 
+}
+
+models/monsters/hellknight/whitehellknight
+{
+    flesh
+	unsmoothedTangents
+	clamp
+	renderbump  -size 1024 1024 -trace 0.02 -colorMap -aa 1  models/monsters/hellknight/hellknight_local.tga models/monsters/hellknight/zhellknight_hi.lwo
+ 	
+	{	// burning corpse effect
+		if	parm7			// only when dead
+		
+		// make a burned away alpha test for the normal skin
+		blend	gl_zero, gl_one			// don't draw anything
+		
+		map models/monsters/hellknight/hellknight_dis.tga	// replace this with a monster-specific texture
+		alphaTest 0.05 + 0.3 * (time - parm7)
+	}
+	{	// burning corpse effect
+		if parm7			// only when dead
+
+		// draw the fire burn at a negative polygonOffset, so it is behind the other stages
+		privatePolygonOffset	-1		// stage-only polygon offset
+        blend add	
+        blend gl_one, gl_zero
+		
+		map models/monsters/hellknight/hellknight_dis.tga	// replace this with a monster-specific texture
+		alphaTest 0.3 * (time - parm7)
+	}
+	forceOverlays
+	diffusemap	    _white
+	bumpmap			addnormals(models/monsters/hellknight/hellknight_local.tga, heightmap(models/monsters/hellknight/hellknight_h.tga, 10 ) )
+	//specularmap		models/monsters/hellknight/hellknight_s.tga
+}

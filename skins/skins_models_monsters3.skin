@@ -1,0 +1,6 @@
+
+skin skins/models/monsters/whitehellknight
+{
+	model _tb/models/md5/monsters/hellknight/hellknight.obj
+	models/monsters/hellknight/hellknight models/monsters/hellknight/whitehellknight
+}

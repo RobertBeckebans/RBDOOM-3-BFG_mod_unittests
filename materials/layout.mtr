@@ -1,0 +1,6 @@
+
+textures/layout/palette1
+{ 
+	qer_editorImage textures/layout/palette1.png
+	diffusemap textures/layout/palette1.png
+} 
