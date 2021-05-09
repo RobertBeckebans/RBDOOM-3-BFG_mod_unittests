@@ -1,0 +1,206 @@
+// Game: Doom 3 BFG
+// Format: Doom3 (Valve)
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures/cc0textures_floor;textures/layout"
+"_tb_def" "builtin:DOOM-3-all.fgd"
+"_tb_mod" "mod_unittests"
+// brush 0
+{
+( -192 0 0 ) ( -192 1 0 ) ( -192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 0 -128 0 ) ( 0 -128 -1 ) ( -1 -128 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 0 0 256 ) ( -1 0 256 ) ( 0 -1 256 ) layout/palette1 [ 1 0 0 -30 ] [ 0 -1 0 -4.0000005 ] 0 32 32 0 0 0
+( 0 0 272 ) ( 1 0 272 ) ( 0 -1 272 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 0 256 0 ) ( 0 256 1 ) ( -1 256 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 192 0 0 ) ( 192 -1 0 ) ( 192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+}
+// brush 1
+{
+( -192 0 0 ) ( -192 1 0 ) ( -192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 0 -128 0 ) ( 0 -128 -1 ) ( -1 -128 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 0 0 -16 ) ( -1 0 -16 ) ( 0 -1 -16 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 0 0 0 ) ( 1 0 0 ) ( 0 -1 0 ) layout/palette1 [ 1 0 0 -41 ] [ 0 1 0 4 ] 0 32 32 0 0 0
+( 0 256 0 ) ( 0 256 1 ) ( -1 256 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 192 0 0 ) ( 192 -1 0 ) ( 192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+}
+// brush 2
+{
+( -192 0 0 ) ( -192 1 0 ) ( -192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 0 256 0 ) ( 0 256 -1 ) ( -1 256 0 ) layout/palette1 [ 1 0 0 -30 ] [ 0 0 -1 7.9999995 ] 0 32 32 0 0 0
+( 0 0 0 ) ( -1 0 0 ) ( 0 -1 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 0 0 256 ) ( 1 0 256 ) ( 0 -1 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 0 272 0 ) ( 0 272 1 ) ( -1 272 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 192 0 0 ) ( 192 -1 0 ) ( 192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+}
+// brush 3
+{
+( -192 0 0 ) ( -192 1 0 ) ( -192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 0 -144 0 ) ( 0 -144 -1 ) ( -1 -144 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 0 0 0 ) ( -1 0 0 ) ( 0 -1 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 0 0 256 ) ( 1 0 256 ) ( 0 -1 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 0 -128 0 ) ( 0 -128 1 ) ( -1 -128 0 ) layout/palette1 [ 1 0 0 -30 ] [ 0 0 -1 7.9999995 ] 0 32 32 0 0 0
+( 192 0 0 ) ( 192 -1 0 ) ( 192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+}
+// brush 4
+{
+( 192 0 0 ) ( 192 1 0 ) ( 192 0 1 ) layout/palette1 [ 0 1 0 -25 ] [ 0 0 -1 8 ] 0 32 32 0 0 0
+( 0 -128 0 ) ( 0 -128 -1 ) ( -1 -128 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 0 0 0 ) ( -1 0 0 ) ( 0 -1 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 0 0 256 ) ( 1 0 256 ) ( 0 -1 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 0 256 0 ) ( 0 256 1 ) ( -1 256 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 208 0 0 ) ( 208 -1 0 ) ( 208 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+}
+// brush 5
+{
+( -208 0 0 ) ( -208 1 0 ) ( -208 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 0 -128 0 ) ( 0 -128 -1 ) ( -1 -128 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 0 0 0 ) ( -1 0 0 ) ( 0 -1 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 0 0 256 ) ( 1 0 256 ) ( 0 -1 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 0 256 0 ) ( 0 256 1 ) ( -1 256 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -192 0 0 ) ( -192 -1 0 ) ( -192 0 1 ) layout/palette1 [ 0 -1 0 -40 ] [ 0 0 -1 7.9999995 ] 0 32 32 0 0 0
+}
+// brush 6
+{
+( -40 -24 32 ) ( -40 -88 32 ) ( -40 -88 0 ) base_wall/snpanel2rust [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -40 -88 32 ) ( 40 -88 32 ) ( 40 -88 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 40 -88 0 ) ( 40 -24 0 ) ( -40 -24 0 ) base_wall/snpanel2rust [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( -40 -24 32 ) ( 40 -24 32 ) ( 40 -88 32 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 40 -24 0 ) ( 40 -24 32 ) ( -40 -24 32 ) base_wall/snpanel2rust [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 40 -88 32 ) ( 40 -24 32 ) ( 40 -24 0 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+}
+// brush 7
+{
+( -32 -80 40 ) ( -40 -88 32 ) ( -40 -24 32 ) base_wall/snpanel2rust [ 0 -1 0 0 ] [ 1 0 0 -0.0717926 ] 0 0.5 0.5 0 0 0
+( 32 -80 40 ) ( 40 -88 32 ) ( -40 -88 32 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 1 0 0.08581543 ] 0 0.5 0.5 0 0 0
+( 40 -88 32 ) ( 40 -24 32 ) ( -40 -24 32 ) base_wall/snpanel2rust [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( -32 -32 40 ) ( 32 -32 40 ) ( 32 -80 40 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 32 -32 40 ) ( -32 -32 40 ) ( -40 -24 32 ) base_wall/snpanel2rust [ -1 0 0 0 ] [ 0 -1 0 -0.9141846 ] 0 0.5 0.5 0 0 0
+( 40 -88 32 ) ( 32 -80 40 ) ( 32 -32 40 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ -1 0 0 -0.0717926 ] 0 0.5 0.5 0 0 0
+}
+// brush 8
+{
+( -30 -22 28 ) ( -30 -24 28 ) ( -30 -24 6 ) base_wall/snpanel2rust [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -30 -24 28 ) ( 30 -24 28 ) ( 30 -24 6 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 30 -24 6 ) ( 30 -22 6 ) ( -30 -22 6 ) base_wall/snpanel2rust [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( -30 -22 28 ) ( 30 -22 28 ) ( 30 -24 28 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 30 -22 6 ) ( 30 -22 28 ) ( -30 -22 28 ) base_wall/snpanel2rust [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 30 -24 28 ) ( 30 -22 28 ) ( 30 -22 6 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+}
+// brush 9
+{
+( -192 104 256 ) ( -192 96 256 ) ( -192 96 0 ) base_wall/snpanel2rust [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -192 96 256 ) ( 0 96 256 ) ( 0 96 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 0 96 0 ) ( 0 104 0 ) ( -192 104 0 ) base_wall/snpanel2rust [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( -192 104 256 ) ( 0 104 256 ) ( 0 96 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 0 104 0 ) ( 0 104 256 ) ( -192 104 256 ) base_wall/snpanel2rust [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 0 96 256 ) ( 0 104 256 ) ( 0 104 0 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+}
+}
+// entity 1
+{
+"classname" "info_player_start"
+"name" "info_player_start_1"
+"origin" "80 192 0"
+"angle" "270"
+}
+// entity 2
+{
+"classname" "light"
+"name" "light_2"
+"origin" "-128 192 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0"
+"_color" "0.78 0.78 0.84"
+"light" "0"
+}
+// entity 3
+{
+"classname" "light"
+"name" "light_3"
+"origin" "128 192 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0"
+"_color" "0.776471 0.776471 0.839216"
+"light" "0"
+}
+// entity 4
+{
+"classname" "light"
+"name" "light_4"
+"origin" "-128 -64 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0"
+"_color" "0.78 0.78 0.84"
+"light" "0"
+}
+// entity 5
+{
+"classname" "light"
+"name" "light_5"
+"origin" "128 -64 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0.000000"
+"_color" "0.78 0.78 0.84"
+"light_radius" "0 0 0"
+}
+// entity 6
+{
+"classname" "func_static"
+"name" "func_static_1"
+"model" "_tb/models/md5/monsters/hellknight/hellknight.obj"
+"origin" "0 -56 40"
+"angle" "180"
+"skin" "skins/models/monsters/cyanhellknight"
+}
+// entity 7
+{
+"classname" "light"
+"origin" "-96 128 168"
+"_color" "0.776471 0.776471 0.839216"
+"bind" "env_swinglight_sl64_1"
+"light" "0"
+}
+// entity 8
+{
+"classname" "env_swinglight_sl64"
+"origin" "-96 128 256"
+"name" "env_swinglight_sl64_1"
+}
+// entity 9
+{
+"classname" "env_swinglight_sl64"
+"origin" "96 128 256"
+"name" "env_swinglight_sl64_2"
+}
+// entity 10
+{
+"classname" "light"
+"origin" "96 128 168"
+"_color" "0.776471 0.776471 0.839216"
+"bind" "env_swinglight_sl64_2"
+"light" "0"
+}
+// entity 11
+{
+"classname" "light"
+"origin" "112 -48 220"
+"_color" "0.7765 0.7765 0.8392"
+"noshadows" "0"
+"nospecular" "0"
+"falloff" "0.000000"
+"light_target" "0 0 -192"
+"light_up" "-64 0 0"
+"light_right" "0 -64 0"
+"name" "light_0"
+"angles" "45 0 0"
+"texture" "lights/lightgratelight"
+}

@@ -44,7 +44,20 @@ models/monsters/hellknight/whitehellknight
 		alphaTest 0.3 * (time - parm7)
 	}
 	forceOverlays
-	diffusemap	    _white
-	bumpmap			addnormals(models/monsters/hellknight/hellknight_local.tga, heightmap(models/monsters/hellknight/hellknight_h.tga, 10 ) )
+	
+	basecolormap	    _white
+	normalmap			addnormals(models/monsters/hellknight/hellknight_local.tga, heightmap(models/monsters/hellknight/hellknight_h.tga, 10 ) )
+	//specularmap		models/monsters/hellknight/hellknight_s.tga
+}
+
+models/monsters/hellknight/cyanhellknight
+{
+    //flesh
+	unsmoothedTangents
+	clamp
+	forceOverlays
+	
+	basecolormap	    _cyan
+	normalmap			addnormals(models/monsters/hellknight/hellknight_local.tga, heightmap(models/monsters/hellknight/hellknight_h.tga, 10 ) )
 	//specularmap		models/monsters/hellknight/hellknight_s.tga
 }
