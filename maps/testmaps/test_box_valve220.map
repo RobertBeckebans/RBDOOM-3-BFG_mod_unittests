@@ -3,7 +3,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"_tb_textures" ""
+"_tb_textures" "textures/base_wall;textures/common;textures/editor"
 "_tb_def" "builtin:DOOM-3-all.fgd"
 "_tb_mod" "mod_unittests"
 // brush 0
@@ -145,11 +145,11 @@
 }
 // entity 6
 {
-"classname" "func_static"
+"classname" "misc_model"
 "name" "func_static_1"
 "model" "_tb/models/md5/monsters/hellknight/hellknight.obj"
-"origin" "0 -88 40"
-"angle" "180"
+"origin" "-8 -96 40"
+"angles" "0 180 0"
 }
 // entity 7
 {

@@ -118,7 +118,7 @@
 }
 // entity 6
 {
-"classname" "func_static"
+"classname" "misc_model"
 "model" "models/mapobjects/pbr/materialorb/material-orb.obj"
 "origin" "16 -88 0"
 "angle" "270"
@@ -165,7 +165,7 @@
 }
 // entity 12
 {
-"classname" "func_static"
+"classname" "misc_model"
 "name" "func_static_2"
 "model" "models/mapobjects/pbr/materialorb/pbr-spheres.dae"
 "origin" "156 64 10"
@@ -173,7 +173,7 @@
 }
 // entity 13
 {
-"classname" "func_static"
+"classname" "misc_model"
 "model" "models/mapobjects/signs/ceilingsign/ceilingsign.obj"
 "origin" "-80 -125.072 109.072"
 "angles" "0 0 30"
@@ -367,14 +367,14 @@
 }
 // entity 34
 {
-"classname" "func_static"
+"classname" "misc_model"
 "model" "models/mapobjects/pbr/materialorb/material-orb.obj"
 "origin" "80 -88 0"
 "angle" "270"
 }
 // entity 35
 {
-"classname" "func_static"
+"classname" "misc_model"
 "model" "models/mapobjects/signs/ceilingsign/ceilingsign.obj"
 "origin" "48 -125.072 109.072"
 "angles" "0 0 30"
@@ -384,7 +384,7 @@
 }
 // entity 36
 {
-"classname" "func_static"
+"classname" "misc_model"
 "model" "models/mapobjects/pbr/materialorb/material-orb.obj"
 "origin" "-48 -88 0"
 "angle" "270"
@@ -392,7 +392,7 @@
 }
 // entity 37
 {
-"classname" "func_static"
+"classname" "misc_model"
 "model" "models/mapobjects/pbr/materialorb/material-orb.obj"
 "origin" "-112 -88 0"
 "angle" "270"
@@ -400,7 +400,7 @@
 }
 // entity 38
 {
-"classname" "func_static"
+"classname" "misc_model"
 "model" "models/mapobjects/pbr/materialorb/material-orb.obj"
 "origin" "-176 -88 0"
 "angle" "270"
@@ -408,7 +408,7 @@
 }
 // entity 39
 {
-"classname" "func_static"
+"classname" "misc_model"
 "model" "models/mapobjects/pbr/materialorb/material-orb.obj"
 "origin" "-240 -88 0"
 "angle" "270"
@@ -416,7 +416,7 @@
 }
 // entity 40
 {
-"classname" "func_static"
+"classname" "misc_model"
 "model" "models/mapobjects/signs/ceilingsign/ceilingsign.obj"
 "origin" "-208 -125.072 109.072"
 "angles" "0 0 30"

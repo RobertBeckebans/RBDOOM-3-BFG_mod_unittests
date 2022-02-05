@@ -160,7 +160,7 @@
 }
 // entity 2
 {
-"classname" "func_static"
+"classname" "misc_model"
 "name" "func_static_1"
 "origin" "-15 -53 0"
 "model" "models/mapobjects/sponza/sponza.obj"

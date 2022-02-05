@@ -3,14 +3,14 @@
 // entity 0
 {
 "classname" "worldspawn"
-"_tb_textures" "textures/cc0textures_floor;textures/layout"
-"_tb_def" "builtin:DOOM-3-all.fgd"
+"_tb_textures" "textures/base_wall;textures/cc0textures_floor;textures/layout"
+"_tb_def" "builtin:DOOM-3-slim.fgd"
 "_tb_mod" "mod_unittests"
 // brush 0
 {
 ( -192 0 0 ) ( -192 1 0 ) ( -192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
 ( 0 -128 0 ) ( 0 -128 -1 ) ( -1 -128 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
-( 0 0 256 ) ( -1 0 256 ) ( 0 -1 256 ) layout/palette1 [ 1 0 0 -30 ] [ 0 -1 0 -4.0000004768 ] 0 32 32 0 0 0
+( 0 0 256 ) ( -1 0 256 ) ( 0 -1 256 ) layout/palette1 [ 1 0 0 -30 ] [ 0 -1 0 -4.0000005 ] 0 32 32 0 0 0
 ( 0 0 272 ) ( 1 0 272 ) ( 0 -1 272 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
 ( 0 256 0 ) ( 0 256 1 ) ( -1 256 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
 ( 192 0 0 ) ( 192 -1 0 ) ( 192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
@@ -27,7 +27,7 @@
 // brush 2
 {
 ( -192 0 0 ) ( -192 1 0 ) ( -192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
-( 0 256 0 ) ( 0 256 -1 ) ( -1 256 0 ) layout/palette1 [ 1 0 0 -30 ] [ 0 0 -1 7.9999995232 ] 0 32 32 0 0 0
+( 0 256 0 ) ( 0 256 -1 ) ( -1 256 0 ) layout/palette1 [ 1 0 0 -30 ] [ 0 0 -1 7.9999995 ] 0 32 32 0 0 0
 ( 0 0 0 ) ( -1 0 0 ) ( 0 -1 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
 ( 0 0 256 ) ( 1 0 256 ) ( 0 -1 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
 ( 0 272 0 ) ( 0 272 1 ) ( -1 272 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
@@ -39,7 +39,7 @@
 ( 0 -144 0 ) ( 0 -144 -1 ) ( -1 -144 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
 ( 0 0 0 ) ( -1 0 0 ) ( 0 -1 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
 ( 0 0 256 ) ( 1 0 256 ) ( 0 -1 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
-( 0 -128 0 ) ( 0 -128 1 ) ( -1 -128 0 ) layout/palette1 [ 1 0 0 -30 ] [ 0 0 -1 7.9999995232 ] 0 32 32 0 0 0
+( 0 -128 0 ) ( 0 -128 1 ) ( -1 -128 0 ) layout/palette1 [ 1 0 0 -30 ] [ 0 0 -1 7.9999995 ] 0 32 32 0 0 0
 ( 192 0 0 ) ( 192 -1 0 ) ( 192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
 }
 // brush 4
@@ -58,7 +58,7 @@
 ( 0 0 0 ) ( -1 0 0 ) ( 0 -1 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
 ( 0 0 256 ) ( 1 0 256 ) ( 0 -1 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
 ( 0 256 0 ) ( 0 256 1 ) ( -1 256 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
-( -192 0 0 ) ( -192 -1 0 ) ( -192 0 1 ) layout/palette1 [ 0 -1 0 -40 ] [ 0 0 -1 7.9999995232 ] 0 32 32 0 0 0
+( -192 0 0 ) ( -192 -1 0 ) ( -192 0 1 ) layout/palette1 [ 0 -1 0 -40 ] [ 0 0 -1 7.9999995 ] 0 32 32 0 0 0
 }
 // brush 6
 {
@@ -71,12 +71,12 @@
 }
 // brush 7
 {
-( -32 -80 40 ) ( -40 -88 32 ) ( -40 -24 32 ) base_wall/snpanel2rust [ 0 -1 0 0 ] [ 1 0 0 -0.0717926025 ] 0 0.5 0.5 0 0 0
-( 32 -80 40 ) ( 40 -88 32 ) ( -40 -88 32 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 1 0 0.0858154297 ] 0 0.5 0.5 0 0 0
+( -32 -80 40 ) ( -40 -88 32 ) ( -40 -24 32 ) base_wall/snpanel2rust [ 0 -1 0 0 ] [ 1 0 0 -0.0717926 ] 0 0.5 0.5 0 0 0
+( 32 -80 40 ) ( 40 -88 32 ) ( -40 -88 32 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 1 0 0.08581543 ] 0 0.5 0.5 0 0 0
 ( 40 -88 32 ) ( 40 -24 32 ) ( -40 -24 32 ) base_wall/snpanel2rust [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
 ( -32 -32 40 ) ( 32 -32 40 ) ( 32 -80 40 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
-( 32 -32 40 ) ( -32 -32 40 ) ( -40 -24 32 ) base_wall/snpanel2rust [ -1 0 0 0 ] [ 0 -1 0 -0.9141845703 ] 0 0.5 0.5 0 0 0
-( 40 -88 32 ) ( 32 -80 40 ) ( 32 -32 40 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ -1 0 0 -0.0717926025 ] 0 0.5 0.5 0 0 0
+( 32 -32 40 ) ( -32 -32 40 ) ( -40 -24 32 ) base_wall/snpanel2rust [ -1 0 0 0 ] [ 0 -1 0 -0.9141846 ] 0 0.5 0.5 0 0 0
+( 40 -88 32 ) ( 32 -80 40 ) ( 32 -32 40 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ -1 0 0 -0.0717926 ] 0 0.5 0.5 0 0 0
 }
 // brush 8
 {
@@ -154,12 +154,13 @@
 }
 // entity 6
 {
-"classname" "func_static"
+"classname" "misc_model"
 "name" "func_static_1"
 "model" "_tb/models/md5/monsters/hellknight/hellknight.obj"
-"origin" "0 -56 40"
+"origin" "0 -72 40"
 "angle" "180"
 "skin" "skins/models/monsters/cyanhellknight"
+"angles" "0 180 0"
 }
 // entity 7
 {
