@@ -123,6 +123,7 @@
 "origin" "16 -88 0"
 "angle" "270"
 "skin" "skins/materialorb_wood.skin"
+"name" "misc_model_0"
 }
 // entity 7
 {
@@ -131,6 +132,7 @@
 "_color" "0.776471 0.776471 0.839216"
 "bind" "env_swinglight_sl64_1"
 "light" "150"
+"name" "light_1"
 }
 // entity 8
 {
@@ -162,6 +164,7 @@
 "origin" "0 -16 156"
 "_color" "0.776471 0.776471 0.839216"
 "light" "225"
+"name" "light_6"
 }
 // entity 12
 {
@@ -180,6 +183,7 @@
 "gui" "guis/signs/directional.gui"
 "gui_parm1" "metal004"
 "gui_parm2" "Gold - metal007"
+"name" "misc_model_1"
 }
 // entity 14
 {
@@ -191,6 +195,7 @@
 "nospecular" "0"
 "falloff" "0.000000"
 "light_radius" "150 150 150"
+"name" "light_7"
 }
 // entity 15
 {
@@ -208,6 +213,7 @@
 "nospecular" "0"
 "falloff" "0.000000"
 "light_radius" "150 150 150"
+"name" "light_8"
 }
 // entity 17
 {
@@ -225,6 +231,7 @@
 "nospecular" "0"
 "falloff" "0.000000"
 "light_radius" "150 150 150"
+"name" "light_9"
 }
 // entity 19
 {
@@ -242,6 +249,7 @@
 "nospecular" "0"
 "falloff" "0.000000"
 "light_radius" "150 150 150"
+"name" "light_10"
 }
 // entity 21
 {
@@ -259,6 +267,7 @@
 "falloff" "0"
 "_color" "0.78 0.78 0.84"
 "light" "150"
+"name" "light_11"
 }
 // entity 23
 {
@@ -270,6 +279,7 @@
 "falloff" "0"
 "_color" "0.78 0.78 0.84"
 "light" "120"
+"name" "light_12"
 }
 // entity 24
 {
@@ -277,6 +287,7 @@
 "origin" "-192 -16 156"
 "_color" "0.776471 0.776471 0.839216"
 "light" "225"
+"name" "light_13"
 }
 // entity 25
 {
@@ -288,6 +299,7 @@
 "falloff" "0"
 "_color" "0.78 0.78 0.84"
 "light" "150"
+"name" "light_14"
 }
 // entity 26
 {
@@ -299,6 +311,7 @@
 "falloff" "0"
 "_color" "0.78 0.78 0.84"
 "light" "120"
+"name" "light_15"
 }
 // entity 27
 {
@@ -306,6 +319,7 @@
 "origin" "-384 -16 156"
 "_color" "0.776471 0.776471 0.839216"
 "light" "225"
+"name" "light_16"
 }
 // entity 28
 {
@@ -317,6 +331,7 @@
 "falloff" "0"
 "_color" "0.78 0.78 0.84"
 "light" "150"
+"name" "light_17"
 }
 // entity 29
 {
@@ -328,6 +343,7 @@
 "falloff" "0"
 "_color" "0.78 0.78 0.84"
 "light" "120"
+"name" "light_18"
 }
 // entity 30
 {
@@ -335,6 +351,7 @@
 "origin" "-576 -16 156"
 "_color" "0.776471 0.776471 0.839216"
 "light" "225"
+"name" "light_19"
 }
 // entity 31
 {
@@ -346,6 +363,7 @@
 "falloff" "0"
 "_color" "0.78 0.78 0.84"
 "light" "150"
+"name" "light_20"
 }
 // entity 32
 {
@@ -357,6 +375,7 @@
 "falloff" "0"
 "_color" "0.78 0.78 0.84"
 "light" "120"
+"name" "light_21"
 }
 // entity 33
 {
@@ -364,6 +383,7 @@
 "origin" "-768 -16 156"
 "_color" "0.776471 0.776471 0.839216"
 "light" "225"
+"name" "light_22"
 }
 // entity 34
 {
@@ -371,6 +391,7 @@
 "model" "models/mapobjects/pbr/materialorb/material-orb.obj"
 "origin" "80 -88 0"
 "angle" "270"
+"name" "misc_model_2"
 }
 // entity 35
 {
@@ -381,6 +402,7 @@
 "gui" "guis/signs/directional.gui"
 "gui_parm1" "ORB base metal04"
 "gui_parm2" "Wood"
+"name" "misc_model_3"
 }
 // entity 36
 {
@@ -389,6 +411,7 @@
 "origin" "-48 -88 0"
 "angle" "270"
 "skin" "skins/materialorb_metal002.skin"
+"name" "misc_model_4"
 }
 // entity 37
 {
@@ -397,6 +420,7 @@
 "origin" "-112 -88 0"
 "angle" "270"
 "skin" "skins/materialorb_gold.skin"
+"name" "misc_model_5"
 }
 // entity 38
 {
@@ -405,14 +429,16 @@
 "origin" "-176 -88 0"
 "angle" "270"
 "skin" "skins/materialorb_brickwall"
+"name" "misc_model_6"
 }
 // entity 39
 {
 "classname" "misc_model"
 "model" "models/mapobjects/pbr/materialorb/material-orb.obj"
 "origin" "-240 -88 0"
-"angle" "270"
 "skin" "skins/materialorb_leather"
+"name" "misc_model_7"
+"angles" "0 270 0"
 }
 // entity 40
 {
@@ -423,4 +449,5 @@
 "gui" "guis/signs/directional.gui"
 "gui_parm1" "Brick"
 "gui_parm2" "Leather"
+"name" "misc_model_8"
 }
