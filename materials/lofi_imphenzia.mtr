@@ -1,0 +1,14 @@
+
+M_LoFi_Imphenzia_Palette01_256
+{
+	qer_editorImage textures/lofi/imphenzia/ImphenziaPalette01_256.png
+	
+	basecolormap textures/lofi/imphenzia/ImphenziaPalette01_256.png
+}
+
+textures/lofi/imphenzia/palette01_256
+{
+	qer_editorImage textures/lofi/imphenzia/ImphenziaPalette01_256.png
+	
+	basecolormap textures/lofi/imphenzia/ImphenziaPalette01_256.png
+}

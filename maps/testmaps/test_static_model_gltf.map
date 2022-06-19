@@ -1,0 +1,191 @@
+// Game: Doom 3 BFG
+// Format: Doom3 (Valve)
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures/base_wall;textures/common;textures/editor;textures/lofi;textures/lofi/imphenzia"
+"_tb_def" "builtin:DOOM-3-all.fgd"
+"_tb_mod" "mod_unittests"
+// brush 0
+{
+( -192 0 0 ) ( -192 1 0 ) ( -192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 0 -128 0 ) ( 0 -128 -1 ) ( -1 -128 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 0 0 256 ) ( -1 0 256 ) ( 0 -1 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 0 0 272 ) ( 1 0 272 ) ( 0 -1 272 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 0 256 0 ) ( 0 256 1 ) ( -1 256 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 192 0 0 ) ( 192 -1 0 ) ( 192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+}
+// brush 1
+{
+( -192 0 0 ) ( -192 1 0 ) ( -192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 0 -128 0 ) ( 0 -128 -1 ) ( -1 -128 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 0 0 -16 ) ( -1 0 -16 ) ( 0 -1 -16 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 0 0 0 ) ( 1 0 0 ) ( 0 -1 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 0 256 0 ) ( 0 256 1 ) ( -1 256 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 192 0 0 ) ( 192 -1 0 ) ( 192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+}
+// brush 2
+{
+( -192 0 0 ) ( -192 1 0 ) ( -192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 0 256 0 ) ( 0 256 -1 ) ( -1 256 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 0 0 0 ) ( -1 0 0 ) ( 0 -1 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 0 0 256 ) ( 1 0 256 ) ( 0 -1 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 0 272 0 ) ( 0 272 1 ) ( -1 272 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 192 0 0 ) ( 192 -1 0 ) ( 192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+}
+// brush 3
+{
+( -192 0 0 ) ( -192 1 0 ) ( -192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 0 -144 0 ) ( 0 -144 -1 ) ( -1 -144 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 0 0 0 ) ( -1 0 0 ) ( 0 -1 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 0 0 256 ) ( 1 0 256 ) ( 0 -1 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 0 -128 0 ) ( 0 -128 1 ) ( -1 -128 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 192 0 0 ) ( 192 -1 0 ) ( 192 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+}
+// brush 4
+{
+( 192 0 0 ) ( 192 1 0 ) ( 192 0 1 ) base_wall/snpanel2rust [ 0 1.0000000000000002 0 128 ] [ 0 0 -1.0000000000000002 0 ] 0 0.5 0.5 0 0 0
+( 0 -128 0 ) ( 0 -128 -1 ) ( -1 -128 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 0 0 0 ) ( -1 0 0 ) ( 0 -1 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 0 0 256 ) ( 1 0 256 ) ( 0 -1 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 0 256 0 ) ( 0 256 1 ) ( -1 256 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 208 0 0 ) ( 208 -1 0 ) ( 208 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+}
+// brush 5
+{
+( -208 0 0 ) ( -208 1 0 ) ( -208 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 0 -128 0 ) ( 0 -128 -1 ) ( -1 -128 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 0 0 0 ) ( -1 0 0 ) ( 0 -1 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 0 0 256 ) ( 1 0 256 ) ( 0 -1 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 0 256 0 ) ( 0 256 1 ) ( -1 256 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -192 0 0 ) ( -192 -1 0 ) ( -192 0 1 ) base_wall/snpanel2rust [ 0 -1.0000000000000002 0 -128 ] [ 0 0 -1.0000000000000002 0 ] 0 0.5 0.5 0 0 0
+}
+// brush 6
+{
+( -40 -56 32 ) ( -40 -120 32 ) ( -40 -120 0 ) base_wall/snpanel2rust [ 0 -1 0 -48 ] [ 0 0 -1 -32 ] 0 0.5 0.5 0 0 0
+( -40 -120 32 ) ( 40 -120 32 ) ( 40 -120 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 -32 ] 0 0.5 0.5 0 0 0
+( 40 -120 0 ) ( 40 -56 0 ) ( -40 -56 0 ) base_wall/snpanel2rust [ -1 0 0 0 ] [ 0 -1 0 -48 ] 0 0.5 0.5 0 0 0
+( -40 -56 32 ) ( 40 -56 32 ) ( 40 -120 32 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 -48 ] 0 0.5 0.5 0 0 0
+( 40 -56 0 ) ( 40 -56 32 ) ( -40 -56 32 ) base_wall/snpanel2rust [ -1 0 0 0 ] [ 0 0 -1 -32 ] 0 0.5 0.5 0 0 0
+( 40 -120 32 ) ( 40 -56 32 ) ( 40 -56 0 ) base_wall/snpanel2rust [ 0 1 0 48 ] [ 0 0 -1 -32 ] 0 0.5 0.5 0 0 0
+}
+// brush 7
+{
+( -32 -112 40 ) ( -40 -120 32 ) ( -40 -56 32 ) base_wall/snpanel2rust [ 0 -1.0000000000000002 0 -48 ] [ 1.0000000000000002 0 0 -6.0717926 ] 0 0.5 0.5 0 0 0
+( 32 -112 40 ) ( 40 -120 32 ) ( -40 -120 32 ) base_wall/snpanel2rust [ 1.0000000000000002 0 0 0 ] [ 0 1.0000000000000002 0 10.085815 ] 0 0.5 0.5 0 0 0
+( 40 -120 32 ) ( 40 -56 32 ) ( -40 -56 32 ) base_wall/snpanel2rust [ -1 0 0 0 ] [ 0 -1 0 -48 ] 0 0.5 0.5 0 0 0
+( -32 -64 40 ) ( 32 -64 40 ) ( 32 -112 40 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 -48 ] 0 0.5 0.5 0 0 0
+( 32 -64 40 ) ( -32 -64 40 ) ( -40 -56 32 ) base_wall/snpanel2rust [ -1.0000000000000002 0 0 0 ] [ 0 -1.0000000000000002 0 -85.914185 ] 0 0.5 0.5 0 0 0
+( 40 -120 32 ) ( 32 -112 40 ) ( 32 -64 40 ) base_wall/snpanel2rust [ 0 1.0000000000000002 0 48 ] [ -1.0000000000000002 0 0 -38.071793 ] 0 0.5 0.5 0 0 0
+}
+// brush 8
+{
+( -30 -54 28 ) ( -30 -56 28 ) ( -30 -56 6 ) base_wall/snpanel2rust [ 0 -1 0 0 ] [ 0 0 -1 -32 ] 0 0.5 0.5 0 0 0
+( -30 -56 28 ) ( 30 -56 28 ) ( 30 -56 6 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 -32 ] 0 0.5 0.5 0 0 0
+( 30 -56 6 ) ( 30 -54 6 ) ( -30 -54 6 ) base_wall/snpanel2rust [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( -30 -54 28 ) ( 30 -54 28 ) ( 30 -56 28 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 30 -54 6 ) ( 30 -54 28 ) ( -30 -54 28 ) lofi/imphenzia/palette01_256 [ -1 0 0 -78 ] [ 0 0 -1 -235.2 ] 0 10 10 0 0 0
+( 30 -56 28 ) ( 30 -54 28 ) ( 30 -54 6 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 -32 ] 0 0.5 0.5 0 0 0
+}
+}
+// entity 1
+{
+"classname" "info_player_start"
+"name" "info_player_start_1"
+"origin" "0 192 0"
+"angle" "270"
+}
+// entity 2
+{
+"classname" "light"
+"name" "light_2"
+"origin" "-128 192 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0"
+"_color" "0.78 0.78 0.84"
+"light" "150"
+}
+// entity 3
+{
+"classname" "light"
+"name" "light_3"
+"origin" "128 192 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0"
+"_color" "0.776471 0.776471 0.839216"
+"light" "150"
+}
+// entity 4
+{
+"classname" "light"
+"name" "light_4"
+"origin" "-128 -64 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0"
+"_color" "0.78 0.78 0.84"
+"light" "120"
+}
+// entity 5
+{
+"classname" "light"
+"name" "light_5"
+"origin" "128 -64 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0"
+"_color" "0.78 0.78 0.84"
+"light" "120"
+}
+// entity 6
+{
+"classname" "misc_model"
+"name" "func_static_1"
+"model" "models/mapobjects/lofi/suzanne/suzanne.glb"
+"origin" "-8 -96 88"
+"angles" "0 0 0"
+}
+// entity 7
+{
+"classname" "light"
+"origin" "-96 64 168"
+"_color" "0.776471 0.776471 0.839216"
+"bind" "env_swinglight_sl64_1"
+"light" "150"
+"name" "light_0"
+}
+// entity 8
+{
+"classname" "env_swinglight_sl64"
+"origin" "-96 64 256"
+"name" "env_swinglight_sl64_1"
+}
+// entity 9
+{
+"classname" "env_swinglight_sl64"
+"origin" "96 64 256"
+"name" "env_swinglight_sl64_2"
+}
+// entity 10
+{
+"classname" "light"
+"origin" "96 64 168"
+"_color" "0.776471 0.776471 0.839216"
+"bind" "env_swinglight_sl64_2"
+"light" "150"
+"name" "light_1"
+}
+// entity 11
+{
+"classname" "light"
+"origin" "0 -16 220"
+"_color" "0.776471 0.776471 0.839216"
+"light" "225"
+"name" "light_6"
+}
