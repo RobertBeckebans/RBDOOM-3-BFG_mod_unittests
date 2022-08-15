@@ -1,0 +1,57 @@
+model char_animTest {
+	mesh						maps/testmaps/test_func_group1.locationAnim.glb
+	anim	test				maps/testmaps/test_func_group1.transTest.glb
+	anim	rot					maps/testmaps/test_func_group1.Rotate_Assets.glb
+	//anim	scale				maps/testmaps/test_func_group1.transScale.glb
+
+}
+
+model	character_small {
+	mesh						maps/testmaps/test_func_group1.characterSmall.glb
+	
+	channel torso				( *HipsCtrl -*LeftUpLeg -*RightUpLeg)
+	channel legs				(origin *RightFootCtrl *LeftFootCtrl *LeftUpLeg *RightUpLeg)
+
+	anim af_pose				maps/testmaps/test_func_group1.Afpose.glb
+	anim ik_pose				maps/testmaps/test_func_group1.Afpose.glb
+
+	anim	attack				maps/testmaps/test_func_group1.Attack.glb
+	anim	walk				maps/testmaps/test_func_group1.Walk.glb
+	anim	idle				maps/testmaps/test_func_group1.Idle.glb
+	//anim	crouch				maps/testmaps/test_func_group1.Crouch.glb
+	//anim	crouchIdle			maps/testmaps/test_func_group1.CrouchIdle.glb
+	//anim	crouchWalk			maps/testmaps/test_func_group1.CrouchWalk.glb
+	//anim	death				maps/testmaps/test_func_group1.Death.glb
+	//anim	interactGround		maps/testmaps/test_func_group1.InteractGround.glb
+	//anim	interactStanding	maps/testmaps/test_func_group1.InteractStanding.glb
+	//anim	jump				maps/testmaps/test_func_group1.Jump.glb
+	//anim	kick				maps/testmaps/test_func_group1.Kick.glb
+	//anim	punch				maps/testmaps/test_func_group1.Punch.glb
+	//anim	steerLeft			maps/testmaps/test_func_group1.SteerLeft.glb
+	//anim	steerRight			maps/testmaps/test_func_group1.SteerRight.glb
+	//anim	racingIdle			maps/testmaps/test_func_group1.RacingIdle.glb
+	//anim	run					maps/testmaps/test_func_group1.Run.glb
+	anim	shoot				maps/testmaps/test_func_group1.Shoot.glb
+	//anim	raise				maps/testmaps/test_func_group1.WeaponRaise.glb
+}
+
+
+entityDef combatant_default {
+	"inherit"					"monster_default"
+	"spawn_anim"				"raise"
+	"bleed"						"1"
+	"def_projectile"			"projectile_sentry_bullet"
+	"smoke_wound_metal"			"bulletricochet.prt"
+	"blockedRadius"				"20"
+	"use_aas"					"aas48"
+	"skin"						"skins/models/characters/char_alienA"
+	"health"					"100"
+}
+
+entityDef ent_character_small {
+	"inherit"					"combatant_default"
+	"scriptobject"				"monster_zombie"
+	"model"						"character_small"
+	"use_aas"					"aas96"
+	"size"						"18 18 42"
+}
