@@ -205,9 +205,9 @@
 {
 "classname" "misc_model"
 "name" "misc_model_0"
-"model" "models/mapobjects/lofi/suzanne/suzanne.glb"
-"origin" "-168 80 88"
-"angles" "0 -90 0"
+"model" "models/mapobjects/lofi/suzanne/suzanne2.glb"
+"origin" "-166 64 88"
+"angles" "0 0 0"
 }
 // entity 7
 {
@@ -264,6 +264,6 @@
 "classname" "misc_model"
 "name" "func_static_1"
 "model" "models/mapobjects/lofi/suzanne/suzanne.obj"
-"origin" "-168 208 88"
-"angles" "0 -90 0"
+"origin" "-168 192 88"
+"angles" "0 0 0"
 }
