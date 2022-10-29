@@ -429,7 +429,7 @@
 "origin" "-176 -88 0"
 "angle" "270"
 "skin" "skins/materialorb_brickwall"
-"name" "misc_model_6"
+"name" "misc_model_9"
 }
 // entity 39
 {
@@ -449,5 +449,24 @@
 "gui" "guis/signs/directional.gui"
 "gui_parm1" "Brick"
 "gui_parm2" "Leather"
+"name" "misc_model_10"
+}
+// entity 41
+{
+"classname" "misc_model"
+"model" "models/mapobjects/pbr/materialorb/material-orb-vertexcolors.glb"
+"origin" "-304 -88 0"
+"name" "misc_model_6"
+"angles" "0 90 0"
+}
+// entity 42
+{
+"classname" "misc_model"
+"model" "models/mapobjects/signs/ceilingsign/ceilingsign.obj"
+"origin" "-336 -125.072 109.072"
+"angles" "0 0 30"
+"gui" "guis/signs/directional.gui"
+"gui_parm1" "Vertex Colors"
+"gui_parm2" ""
 "name" "misc_model_8"
 }

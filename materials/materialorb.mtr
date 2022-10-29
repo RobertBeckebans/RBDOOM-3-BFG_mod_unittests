@@ -35,3 +35,13 @@ models/mapobjects/materialorb/pbrspheres
 	normalmap _flat
 	specularmap models/mapobjects/pbr/materialorb/images/pbrspheres_rmao.png
 }
+
+M_DebugVertexColor
+{
+	{
+		blend basecolormap 
+		map _white
+		vertexColor
+	}
+	normalmap _flat
+}
