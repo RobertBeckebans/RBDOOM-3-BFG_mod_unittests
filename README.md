@@ -55,10 +55,10 @@ It has several group tests:
 
 <img src="https://i.imgur.com/ObaNsVw.png" width="384">
 
-## glTF2 Static misc_model test
-[ maps/testmaps/test_static_model_gltf.map ]
+## glTF2 Models Test
+[ maps/testmaps/test_gltf2_models.map ]
 
-<img src="https://i.imgur.com/8hyAb3v.png" width="384">
+<img src="https://i.imgur.com/D6ELTbH.png" width="384">
 
 # Other Samples
 

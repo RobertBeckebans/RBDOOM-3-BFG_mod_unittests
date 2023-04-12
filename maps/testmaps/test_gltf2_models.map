@@ -1,0 +1,448 @@
+// Game: Doom 3 BFG
+// Format: Doom3 (Valve)
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures/base_wall;textures/cc0textures_floor"
+"_tb_def" "builtin:DOOM-3-slim.fgd"
+"_tb_mod" "mod_unittests"
+// brush 0
+{
+( -960 256 272 ) ( -960 -128 272 ) ( -960 -128 256 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -960 -128 272 ) ( 192 -128 272 ) ( 192 -128 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 192 -128 256 ) ( 192 256 256 ) ( -960 256 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( -960 256 272 ) ( 192 256 272 ) ( 192 -128 272 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 192 256 256 ) ( 192 256 272 ) ( -960 256 272 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 192 -128 272 ) ( 192 256 272 ) ( 192 256 256 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+}
+// brush 1
+{
+( -960 256 0 ) ( -960 -128 0 ) ( -960 -128 -16 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -960 -128 0 ) ( 192 -128 0 ) ( 192 -128 -16 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 192 -128 -16 ) ( 192 256 -16 ) ( -960 256 -16 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( -960 256 0 ) ( 192 256 0 ) ( 192 -128 0 ) cc0textures_floor/marble013 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.125 0.125 0 0 0
+( 192 256 -16 ) ( 192 256 0 ) ( -960 256 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 192 -128 0 ) ( 192 256 0 ) ( 192 256 -16 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+}
+// brush 2
+{
+( -960 272 256 ) ( -960 256 256 ) ( -960 256 0 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -960 256 256 ) ( 192 256 256 ) ( 192 256 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 192 256 0 ) ( 192 272 0 ) ( -960 272 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( -960 272 256 ) ( 192 272 256 ) ( 192 256 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 192 272 0 ) ( 192 272 256 ) ( -960 272 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 192 256 256 ) ( 192 272 256 ) ( 192 272 0 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+}
+// brush 3
+{
+( -960 -128 256 ) ( -960 -144 256 ) ( -960 -144 0 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -960 -144 256 ) ( 192 -144 256 ) ( 192 -144 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 192 -144 0 ) ( 192 -128 0 ) ( -960 -128 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( -960 -128 256 ) ( 192 -128 256 ) ( 192 -144 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 192 -128 0 ) ( 192 -128 256 ) ( -960 -128 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 192 -144 256 ) ( 192 -128 256 ) ( 192 -128 0 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+}
+// brush 4
+{
+( 192 0 0 ) ( 192 1 0 ) ( 192 0 1 ) base_wall/snpanel2rust [ 0 1 0 128 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 0 -128 0 ) ( 0 -128 -1 ) ( -1 -128 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 0 0 0 ) ( -1 0 0 ) ( 0 -1 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 0 0 256 ) ( 1 0 256 ) ( 0 -1 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( 0 256 0 ) ( 0 256 1 ) ( -1 256 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 208 0 0 ) ( 208 -1 0 ) ( 208 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+}
+// brush 5
+{
+( -976 0 0 ) ( -976 1 0 ) ( -976 0 1 ) base_wall/snpanel2rust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -768 -128 0 ) ( -768 -128 -1 ) ( -769 -128 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -768 0 0 ) ( -769 0 0 ) ( -768 -1 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( -768 0 256 ) ( -767 0 256 ) ( -768 -1 256 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
+( -768 256 0 ) ( -768 256 1 ) ( -769 256 0 ) base_wall/snpanel2rust [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -960 0 0 ) ( -960 -1 0 ) ( -960 0 1 ) base_wall/snpanel2rust [ 0 1 0 128 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+}
+}
+// entity 1
+{
+"classname" "info_player_start"
+"name" "info_player_start_1"
+"origin" "0 192 0"
+"angle" "270"
+}
+// entity 2
+{
+"classname" "light"
+"name" "light_2"
+"origin" "-128 192 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0.000000"
+"_color" "0 0 0"
+"light_radius" "150 150 150"
+}
+// entity 3
+{
+"classname" "light"
+"name" "light_3"
+"origin" "128 192 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0.000000"
+"_color" "0 0 0"
+"light_radius" "150 150 150"
+}
+// entity 4
+{
+"classname" "light"
+"name" "light_4"
+"origin" "-128 -64 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0"
+"_color" "0.78 0.78 0.84"
+"light" "120"
+}
+// entity 5
+{
+"classname" "light"
+"name" "light_5"
+"origin" "128 -64 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0.000000"
+"_color" "0.84 0.78 0.78"
+"light_radius" "120 120 120"
+}
+// entity 6
+{
+"classname" "light"
+"origin" "-96 64 168"
+"_color" "0.776471 0.776471 0.839216"
+"bind" "env_swinglight_sl64_1"
+"light" "150"
+"name" "light_1"
+}
+// entity 7
+{
+"classname" "env_swinglight_sl64"
+"origin" "-96 64 256"
+"name" "env_swinglight_sl64_1"
+}
+// entity 8
+{
+"classname" "env_swinglight_sl64"
+"origin" "96 64 256"
+"name" "env_swinglight_sl64_2"
+}
+// entity 9
+{
+"classname" "light"
+"origin" "96 64 168"
+"_color" "0 0 0"
+"bind" "env_swinglight_sl64_2"
+"noshadows" "0"
+"nospecular" "0"
+"falloff" "0.000000"
+"light_radius" "150 150 150"
+"name" "light_0"
+}
+// entity 10
+{
+"classname" "light"
+"origin" "0 -16 156"
+"_color" "0.776471 0.776471 0.839216"
+"light" "225"
+"name" "light_6"
+}
+// entity 11
+{
+"classname" "misc_model"
+"name" "func_static_2"
+"model" "models/mapobjects/pbr/materialorb/pbr-spheres.dae"
+"origin" "156 64 10"
+"angle" "270"
+}
+// entity 12
+{
+"classname" "misc_model"
+"model" "models/mapobjects/signs/ceilingsign/ceilingsign.obj"
+"origin" "-80 -125.072 109.072"
+"angles" "0 0 30"
+"gui" "guis/signs/directional.gui"
+"name" "misc_model_1"
+"gui_parm1" "Single Mesh Ref"
+"gui_parm2" "Another Ref"
+}
+// entity 13
+{
+"classname" "light"
+"origin" "-288 64 168"
+"_color" "0.7765 0.7765 0.8392"
+"bind" "env_swinglight_sl64_3"
+"noshadows" "0"
+"nospecular" "0"
+"falloff" "0.000000"
+"light_radius" "150 150 150"
+"name" "light_7"
+}
+// entity 14
+{
+"classname" "env_swinglight_sl64"
+"origin" "-288 64 256"
+"name" "env_swinglight_sl64_3"
+}
+// entity 15
+{
+"classname" "light"
+"origin" "-480 64 168"
+"_color" "0.7765 0.7765 0.8392"
+"bind" "env_swinglight_sl64_4"
+"noshadows" "0"
+"nospecular" "0"
+"falloff" "0.000000"
+"light_radius" "150 150 150"
+"name" "light_8"
+}
+// entity 16
+{
+"classname" "env_swinglight_sl64"
+"origin" "-480 64 256"
+"name" "env_swinglight_sl64_4"
+}
+// entity 17
+{
+"classname" "light"
+"origin" "-672 64 168"
+"_color" "0.7765 0.7765 0.8392"
+"bind" "env_swinglight_sl64_5"
+"noshadows" "0"
+"nospecular" "0"
+"falloff" "0.000000"
+"light_radius" "150 150 150"
+"name" "light_9"
+}
+// entity 18
+{
+"classname" "env_swinglight_sl64"
+"origin" "-672 64 256"
+"name" "env_swinglight_sl64_5"
+}
+// entity 19
+{
+"classname" "light"
+"origin" "-864 64 168"
+"_color" "0.7765 0.7765 0.8392"
+"bind" "env_swinglight_sl64_6"
+"noshadows" "0"
+"nospecular" "0"
+"falloff" "0.000000"
+"light_radius" "150 150 150"
+"name" "light_10"
+}
+// entity 20
+{
+"classname" "env_swinglight_sl64"
+"origin" "-864 64 256"
+"name" "env_swinglight_sl64_6"
+}
+// entity 21
+{
+"classname" "light"
+"origin" "-320 192 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0"
+"_color" "0.78 0.78 0.84"
+"light" "150"
+"name" "light_11"
+}
+// entity 22
+{
+"classname" "light"
+"origin" "-320 -64 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0"
+"_color" "0.78 0.78 0.84"
+"light" "120"
+"name" "light_12"
+}
+// entity 23
+{
+"classname" "light"
+"origin" "-192 -16 156"
+"_color" "0.776471 0.776471 0.839216"
+"light" "225"
+"name" "light_13"
+}
+// entity 24
+{
+"classname" "light"
+"origin" "-512 192 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0"
+"_color" "0.78 0.78 0.84"
+"light" "150"
+"name" "light_14"
+}
+// entity 25
+{
+"classname" "light"
+"origin" "-512 -64 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0"
+"_color" "0.78 0.78 0.84"
+"light" "120"
+"name" "light_15"
+}
+// entity 26
+{
+"classname" "light"
+"origin" "-384 -16 156"
+"_color" "0.776471 0.776471 0.839216"
+"light" "225"
+"name" "light_16"
+}
+// entity 27
+{
+"classname" "light"
+"origin" "-704 192 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0"
+"_color" "0.78 0.78 0.84"
+"light" "150"
+"name" "light_17"
+}
+// entity 28
+{
+"classname" "light"
+"origin" "-704 -64 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0"
+"_color" "0.78 0.78 0.84"
+"light" "120"
+"name" "light_18"
+}
+// entity 29
+{
+"classname" "light"
+"origin" "-576 -16 156"
+"_color" "0.776471 0.776471 0.839216"
+"light" "225"
+"name" "light_19"
+}
+// entity 30
+{
+"classname" "light"
+"origin" "-896 192 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0"
+"_color" "0.78 0.78 0.84"
+"light" "150"
+"name" "light_20"
+}
+// entity 31
+{
+"classname" "light"
+"origin" "-896 -64 128"
+"noshadows" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"falloff" "0"
+"_color" "0.78 0.78 0.84"
+"light" "120"
+"name" "light_21"
+}
+// entity 32
+{
+"classname" "light"
+"origin" "-768 -16 156"
+"_color" "0.776471 0.776471 0.839216"
+"light" "225"
+"name" "light_22"
+}
+// entity 33
+{
+"classname" "misc_model"
+"model" "models/mapobjects/signs/ceilingsign/ceilingsign.obj"
+"origin" "48 -125.072 109.072"
+"angles" "0 0 30"
+"gui" "guis/signs/directional.gui"
+"gui_parm1" "Vertex Colors"
+"name" "misc_model_3"
+"gui_parm2" "Hierarchical Meshes"
+}
+// entity 34
+{
+"classname" "misc_model"
+"model" "models/mapobjects/signs/ceilingsign/ceilingsign.obj"
+"origin" "-208 -125.072 109.072"
+"angles" "0 0 30"
+"gui" "guis/signs/directional.gui"
+"name" "misc_model_10"
+"gui_parm1" "Suzanne"
+}
+// entity 35
+{
+"classname" "misc_model"
+"model" "models/mapobjects/pbr/materialorb/material-orb-vertexcolors.glb"
+"origin" "80 -88 0"
+"name" "misc_model_5"
+"angles" "0 90 0"
+}
+// entity 36
+{
+"classname" "misc_model"
+"model" "models/mapobjects/signs/ceilingsign/ceilingsign.obj"
+"origin" "-336 -125.072 109.072"
+"angles" "0 0 30"
+"gui" "guis/signs/directional.gui"
+"name" "misc_model_8"
+}
+// entity 37
+{
+"classname" "misc_model"
+"model" "models/mapobjects/pbr/materialorb/material-orb-parented.SM_GEO_material_orb_002.glb"
+"origin" "-48 -88 0"
+"name" "misc_model_4"
+"angles" "0 90 0"
+}
+// entity 38
+{
+"classname" "misc_model"
+"model" "models/mapobjects/lofi/suzanne/suzanne.glb"
+"origin" "-176 -88 32"
+"name" "misc_model_0"
+"angles" "0 90 0"
+}
+// entity 39
+{
+"classname" "misc_model"
+"model" "models/mapobjects/pbr/materialorb/material-orb-parented.SM_GEO_material_orb_003.glb"
+"origin" "-112 -88 0"
+"name" "misc_model_6"
+"angles" "0 90 0"
+}
+// entity 40
+{
+"classname" "misc_model"
+"model" "models/mapobjects/pbr/materialorb/material-orb-parented.glb"
+"origin" "16 -88 0"
+"name" "misc_model_2"
+"angles" "0 90 0"
+}
