@@ -1,0 +1,211 @@
+skin skins/models/characters/char_alienA {
+	models/characters/zombie/zombieA models/characters/alien/alienA
+}
+
+skin skins/models/characters/char_alienB {
+	models/characters/zombie/zombieA models/characters/alien/alienB
+}
+
+skin skins/models/characters/char_astroFemaleA {
+	models/characters/zombie/zombieA models/characters/astro/astroFemaleA
+}
+
+skin skins/models/characters/char_astroFemaleB {
+	models/characters/zombie/zombieA models/characters/astro/astroFemaleB
+}
+
+skin skins/models/characters/char_astroMaleA {
+	models/characters/zombie/zombieA models/characters/astro/astroMaleA
+}
+
+skin skins/models/characters/char_astroMaleB {
+	models/characters/zombie/zombieA models/characters/astro/astroMaleB
+}
+
+skin skins/models/characters/char_athleteFemaleBlue {
+	models/characters/zombie/zombieA models/characters/athlete/athleteFemaleBlue
+}
+
+skin skins/models/characters/char_athleteFemaleGreen {
+	models/characters/zombie/zombieA models/characters/athlete/athleteFemaleGreen
+}
+
+skin skins/models/characters/char_athleteFemaleRed {
+	models/characters/zombie/zombieA models/characters/athlete/athleteFemaleRed
+}
+
+skin skins/models/characters/char_athleteFemaleYellow {
+	models/characters/zombie/zombieA models/characters/athlete/athleteFemaleYellow
+}
+
+skin skins/models/characters/char_athleteMaleBlue {
+	models/characters/zombie/zombieA models/characters/athlete/athleteMaleBlue
+}
+
+skin skins/models/characters/char_athleteMaleGreen {
+	models/characters/zombie/zombieA models/characters/athlete/athleteMaleGreen
+}
+
+skin skins/models/characters/char_athleteMaleRed {
+	models/characters/zombie/zombieA models/characters/athlete/athleteMaleRed
+}
+
+skin skins/models/characters/char_athleteMaleYellow {
+	models/characters/zombie/zombieA models/characters/athlete/athleteMaleYellow
+}
+
+skin skins/models/characters/char_businessMaleA {
+	models/characters/zombie/zombieA models/characters/business/businessMaleA
+}
+
+skin skins/models/characters/char_businessMaleB {
+	models/characters/zombie/zombieA models/characters/business/businessMaleB
+}
+
+skin skins/models/characters/char_casualFemaleA {
+	models/characters/zombie/zombieA models/characters/casual/casualFemaleA
+}
+
+skin skins/models/characters/char_casualFemaleB {
+	models/characters/zombie/zombieA models/characters/casual/casualFemaleB
+}
+
+skin skins/models/characters/char_casualMaleA {
+	models/characters/zombie/zombieA models/characters/casual/casualMaleA
+}
+
+skin skins/models/characters/char_casualMaleB {
+	models/characters/zombie/zombieA models/characters/casual/casualMaleB
+}
+
+skin skins/models/characters/char_cyborg {
+	models/characters/zombie/zombieA models/characters/cyborg
+}
+
+skin skins/models/characters/char_fantasyFemaleA {
+	models/characters/zombie/zombieA models/characters/fantasy/fantasyFemaleA
+}
+
+skin skins/models/characters/char_fantasyFemaleB {
+	models/characters/zombie/zombieA models/characters/fantasy/fantasyFemaleB
+}
+
+skin skins/models/characters/char_fantasyMaleA {
+	models/characters/zombie/zombieA models/characters/fantasy/fantasyMaleA
+}
+
+skin skins/models/characters/char_fantasyMaleB {
+	models/characters/zombie/zombieA models/characters/farmer/fantasyMaleB
+}
+
+skin skins/models/characters/char_farmerA {
+	models/characters/zombie/zombieA models/characters/farmer/farmerA
+}
+
+skin skins/models/characters/char_farmerB {
+	models/characters/zombie/zombieA models/characters/farmer/farmerB
+}
+
+skin skins/models/characters/char_militaryFemaleA {
+	models/characters/zombie/zombieA models/characters/military/militaryFemaleA
+}
+
+skin skins/models/characters/char_militaryFemaleB {
+	models/characters/zombie/zombieA models/characters/military/militaryFemaleB
+}
+
+skin skins/models/characters/char_militaryMaleA {
+	models/characters/zombie/zombieA models/characters/military/militaryMaleA
+}
+
+skin skins/models/characters/char_militaryMaleB {
+	models/characters/zombie/zombieA models/characters/military/militaryMaleB
+}
+
+skin skins/models/characters/char_racerBlueFemale {
+	models/characters/zombie/zombieA models/characters/racer/racerBlueFemale
+}
+
+skin skins/models/characters/char_racerBlueMale {
+	models/characters/zombie/zombieA models/characters/racer/racerBlueMale
+}
+
+skin skins/models/characters/char_racerGreenFemale {
+	models/characters/zombie/zombieA models/characters/racer/racerGreenFemale
+}
+
+skin skins/models/characters/char_racerGreenMale {
+	models/characters/zombie/zombieA models/characters/racer/racerGreenMale
+}
+
+skin skins/models/characters/char_racerOrangeFemale {
+	models/characters/zombie/zombieA models/characters/racer/racerOrangeFemale
+}
+
+skin skins/models/characters/char_racerOrangeMale {
+	models/characters/zombie/zombieA models/characters/racer/racerOrangeMale
+}
+
+skin skins/models/characters/char_racerPurpleFemale {
+	models/characters/zombie/zombieA models/characters/racer/racerPurpleFemale
+}
+
+skin skins/models/characters/char_racerPurpleMale {
+	models/characters/zombie/zombieA models/characters/racer/racerPurpleMale
+}
+
+skin skins/models/characters/char_racerRedFemale {
+	models/characters/zombie/zombieA models/characters/racer/racerRedFemale
+}
+
+skin skins/models/characters/char_racerRedMale {
+	models/characters/zombie/zombieA models/characters/racer/racerRedMale
+}
+
+skin skins/models/characters/char_robot_flat {
+	models/characters/zombie/zombieA models/characters/robot/robot1_flat
+}
+
+skin skins/models/characters/char_robot2_flat {
+	models/characters/zombie/zombieA models/characters/robot/robot2_flat
+}
+
+skin skins/models/characters/char_robot3_flat {
+	models/characters/zombie/zombieA models/characters/robot/robot3_flat
+}
+
+skin skins/models/characters/char_robot {
+	models/characters/zombie/zombieA models/characters/robot/robot1
+}
+
+skin skins/models/characters/char_robot2 {
+	models/characters/zombie/zombieA models/characters/robot/robot2
+}
+
+skin skins/models/characters/char_robot3 {
+	models/characters/zombie/zombieA models/characters/robot/robot3
+}
+
+skin skins/models/characters/char_survivorFemaleA {
+	models/characters/zombie/zombieA models/characters/survivor/survivorFemaleA
+}
+
+skin skins/models/characters/char_survivorFemaleB {
+	models/characters/zombie/zombieA models/characters/survivor/survivorFemaleB
+}
+
+skin skins/models/characters/char_survivorMaleA {
+	models/characters/zombie/zombieA models/characters/survivor/survivorMaleA
+}
+
+skin skins/models/characters/char_survivorMaleB {
+	models/characters/zombie/zombieA models/characters/survivor/survivorMaleB
+}
+
+skin skins/models/characters/char_zombieB {
+	models/characters/zombie/zombieA models/characters/zombie/zombieB
+}
+
+skin skins/models/characters/char_zombieC {
+	models/characters/zombie/zombieA models/characters/zombie/zombieC
+}
