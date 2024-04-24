@@ -1,0 +1,10 @@
+
+model riggedsimple
+{
+	//options -scale 39.37 -armature "Armature" -rename "Armature" "origin"
+	
+	options -addorigin
+	mesh models/characters/riggedsimple/riggedsimple.glb
+
+	anim idle models/characters/riggedsimple/riggedsimple.Anim_0.glb
+}

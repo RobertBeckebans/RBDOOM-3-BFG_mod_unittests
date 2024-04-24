@@ -396,6 +396,7 @@
 "gui" "guis/signs/directional.gui"
 "name" "misc_model_10"
 "gui_parm1" "Suzanne"
+"gui_parm2" "Rigged Simple"
 }
 // entity 35
 {
@@ -427,7 +428,7 @@
 "classname" "misc_model"
 "model" "models/mapobjects/lofi/suzanne/suzanne.glb"
 "origin" "-176 -88 32"
-"name" "misc_model_0"
+"name" "misc_model_7"
 "angles" "0 90 0"
 }
 // entity 39
@@ -445,4 +446,14 @@
 "origin" "16 -88 0"
 "name" "misc_model_2"
 "angles" "0 90 0"
+}
+// entity 41
+{
+"classname" "func_animate"
+"proxymodel" "models/characters/riggedsimple/riggedsimple.glb"
+"origin" "-224 -88 0"
+"name" "misc_model_0"
+"angles" "0 90 0"
+"model" "riggedsimple"
+"start_anim" "idle"
 }

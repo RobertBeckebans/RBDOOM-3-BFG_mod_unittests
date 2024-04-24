@@ -205,7 +205,7 @@
 {
 "classname" "misc_model"
 "name" "misc_model_0"
-"model" "models/mapobjects/lofi/suzanne/suzanne2.glb"
+"model" "models/mapobjects/lofi/suzanne/suzanne.glb"
 "origin" "-166 64 88"
 "angles" "0 0 0"
 }
