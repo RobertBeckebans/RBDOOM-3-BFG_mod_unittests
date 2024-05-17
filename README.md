@@ -44,21 +44,37 @@ The Quake 3 light grid has been brought back for this and was enhanced with Sphe
 
 <img src="https://media.moddb.com/images/mods/1/50/49231/rbdoom-3-bfg-20210510-144932-005.png" width="384">
 
-## TrenchBroom func_group Test 1
+## TrenchBroom func_group
 [ maps/testmaps/test_func_group1.map ]
 
 This is a demo for the grouping features of TrenchBroom.
 It has several group tests:
-- Grouping world brushes
-- Grouping entities
-- Grouping groups like several groups of func_static brushes
+* Grouping world brushes
+* Grouping entities
+* Grouping groups like several groups of func_static brushes
 
 <img src="https://i.imgur.com/ObaNsVw.png" width="384">
+
+## TrenchBroom func_group instancing
+[ maps/testmaps/test_func_group_instancing.map ]
+
+This tests the TrenchBroom feature Create Linked Duplicate.
+Here you can clone groups and the cloned instances are linked to the original group. So every change will affect all intances.
+
+* Linking groups of world brushes
+* Linking groups of func_static entities
+
+<img src="https://i.imgur.com/3CEln9T.png" width="384">
 
 ## glTF2 Models Test
 [ maps/testmaps/test_gltf2_models.map ]
 
-<img src="https://i.imgur.com/D6ELTbH.png" width="384">
+* Vertex Colors
+* Displaying Single Meshes of a Model
+* Skeletal Animation using func_animated
+* Uniform and non-uniform Scaling
+
+<img src="https://i.imgur.com/D6ELTbH.png" width="384"> <img src="https://i.imgur.com/d6MW1Kz.png" width="384">
 
 # Other Samples
 

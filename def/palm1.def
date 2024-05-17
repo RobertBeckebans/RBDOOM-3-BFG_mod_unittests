@@ -1,0 +1,10 @@
+
+model vegetation_palm1
+{
+	//options -scale 39.37 -armature "Armature" -rename "Armature" "origin"
+	
+	options -addorigin
+	mesh models/mapobjects/veg/palm1/palm1.glb
+
+	anim idle models/mapobjects/veg/palm1/palm1.idle.glb
+}

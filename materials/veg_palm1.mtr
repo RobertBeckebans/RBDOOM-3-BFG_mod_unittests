@@ -1,0 +1,14 @@
+
+
+models/mapobjects/veg/palm1/palm1_lod0
+{
+	twoSided
+
+	{
+		blend basecolormap
+		map models/mapobjects/veg/palm1/CocosNucifera_BaseColor.png
+		alphaTest 0.5
+	}
+	normalmap models/mapobjects/veg/palm1/CocosNucifera_Normal_DirectX.png
+}
+

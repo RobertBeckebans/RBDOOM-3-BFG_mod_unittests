@@ -1,0 +1,7 @@
+Source: https://www.cgtrader.com/free-3d-models/plant/other/coconut-palm-tree-3698-3
+
+# Royalty Free No Ai License
+
+Royalty Free License allows you to use the product without the need to pay royalties or other license fees for multiple uses, per volume sold, or some time period of use or sales. You can use it as long as it is incorporated into the product and the 3rd party cannot retrieve it individually in either the digital or physical form. You cannot resell the model you bought in the digital or printed form, but can use it in your commercial projects multiple times after paying for it just once. Licenses marked with "no AI" tag do not permit Product use for machine learning or training of neural network models, including generative AI models.
+
+This is, however, a non-exclusive license and the product remains the property of a seller for further distribution. Please, refer to legally binding [General Terms and Conditions](https://www.cgtrader.com/pages/terms-and-conditions#general-terms-of-licensing) to learn more about [Royalty Free License No AI](https://www.cgtrader.com/pages/terms-and-conditions#royalty-free-license), other types of licenses and general rules applicable to all products.

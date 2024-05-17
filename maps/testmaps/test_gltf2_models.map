@@ -263,24 +263,12 @@
 // entity 22
 {
 "classname" "light"
-"origin" "-320 -64 128"
-"noshadows" "0"
-"nospecular" "0"
-"nodiffuse" "0"
-"falloff" "0"
-"_color" "0.78 0.78 0.84"
-"light" "120"
-"name" "light_12"
-}
-// entity 23
-{
-"classname" "light"
-"origin" "-192 -16 156"
+"origin" "-128 -16 156"
 "_color" "0.776471 0.776471 0.839216"
 "light" "225"
 "name" "light_13"
 }
-// entity 24
+// entity 23
 {
 "classname" "light"
 "origin" "-512 192 128"
@@ -292,7 +280,7 @@
 "light" "150"
 "name" "light_14"
 }
-// entity 25
+// entity 24
 {
 "classname" "light"
 "origin" "-512 -64 128"
@@ -304,15 +292,7 @@
 "light" "120"
 "name" "light_15"
 }
-// entity 26
-{
-"classname" "light"
-"origin" "-384 -16 156"
-"_color" "0.776471 0.776471 0.839216"
-"light" "225"
-"name" "light_16"
-}
-// entity 27
+// entity 25
 {
 "classname" "light"
 "origin" "-704 192 128"
@@ -324,7 +304,7 @@
 "light" "150"
 "name" "light_17"
 }
-// entity 28
+// entity 26
 {
 "classname" "light"
 "origin" "-704 -64 128"
@@ -336,15 +316,15 @@
 "light" "120"
 "name" "light_18"
 }
-// entity 29
+// entity 27
 {
 "classname" "light"
 "origin" "-576 -16 156"
 "_color" "0.776471 0.776471 0.839216"
 "light" "225"
-"name" "light_19"
+"name" "light_12"
 }
-// entity 30
+// entity 28
 {
 "classname" "light"
 "origin" "-896 192 128"
@@ -356,7 +336,7 @@
 "light" "150"
 "name" "light_20"
 }
-// entity 31
+// entity 29
 {
 "classname" "light"
 "origin" "-896 -64 128"
@@ -368,7 +348,7 @@
 "light" "120"
 "name" "light_21"
 }
-// entity 32
+// entity 30
 {
 "classname" "light"
 "origin" "-768 -16 156"
@@ -376,7 +356,7 @@
 "light" "225"
 "name" "light_22"
 }
-// entity 33
+// entity 31
 {
 "classname" "misc_model"
 "model" "models/mapobjects/signs/ceilingsign/ceilingsign.obj"
@@ -387,18 +367,18 @@
 "name" "misc_model_3"
 "gui_parm2" "Hierarchical Meshes"
 }
-// entity 34
+// entity 32
 {
 "classname" "misc_model"
 "model" "models/mapobjects/signs/ceilingsign/ceilingsign.obj"
 "origin" "-208 -125.072 109.072"
 "angles" "0 0 30"
 "gui" "guis/signs/directional.gui"
-"name" "misc_model_10"
+"name" "misc_model_7"
 "gui_parm1" "Suzanne"
 "gui_parm2" "Rigged Simple"
 }
-// entity 35
+// entity 33
 {
 "classname" "misc_model"
 "model" "models/mapobjects/pbr/materialorb/material-orb-vertexcolors.glb"
@@ -406,16 +386,7 @@
 "name" "misc_model_5"
 "angles" "0 90 0"
 }
-// entity 36
-{
-"classname" "misc_model"
-"model" "models/mapobjects/signs/ceilingsign/ceilingsign.obj"
-"origin" "-336 -125.072 109.072"
-"angles" "0 0 30"
-"gui" "guis/signs/directional.gui"
-"name" "misc_model_8"
-}
-// entity 37
+// entity 34
 {
 "classname" "misc_model"
 "model" "models/mapobjects/pbr/materialorb/material-orb-parented.SM_GEO_material_orb_002.glb"
@@ -423,15 +394,15 @@
 "name" "misc_model_4"
 "angles" "0 90 0"
 }
-// entity 38
+// entity 35
 {
 "classname" "misc_model"
 "model" "models/mapobjects/lofi/suzanne/suzanne.glb"
 "origin" "-176 -88 32"
-"name" "misc_model_7"
+"name" "misc_model_9"
 "angles" "0 90 0"
 }
-// entity 39
+// entity 36
 {
 "classname" "misc_model"
 "model" "models/mapobjects/pbr/materialorb/material-orb-parented.SM_GEO_material_orb_003.glb"
@@ -439,7 +410,7 @@
 "name" "misc_model_6"
 "angles" "0 90 0"
 }
-// entity 40
+// entity 37
 {
 "classname" "misc_model"
 "model" "models/mapobjects/pbr/materialorb/material-orb-parented.glb"
@@ -447,13 +418,73 @@
 "name" "misc_model_2"
 "angles" "0 90 0"
 }
-// entity 41
+// entity 38
 {
 "classname" "func_animate"
 "proxymodel" "models/characters/riggedsimple/riggedsimple.glb"
 "origin" "-224 -88 0"
-"name" "misc_model_0"
+"name" "func_animate_0"
 "angles" "0 90 0"
 "model" "riggedsimple"
 "start_anim" "idle"
+}
+// entity 39
+{
+"classname" "func_animate"
+"proxymodel" "models/mapobjects/veg/palm1/palm1.glb"
+"origin" "-304 -88 0"
+"name" "func_animate_1"
+"angles" "0 0 0"
+"model" "vegetation_palm1"
+"start_anim" "idle"
+"modelscale" "20"
+}
+// entity 40
+{
+"classname" "misc_model"
+"model" "models/mapobjects/signs/ceilingsign/ceilingsign.obj"
+"origin" "-336 -125.072 109.072"
+"angles" "0 0 30"
+"gui" "guis/signs/directional.gui"
+"name" "misc_model_8"
+"gui_parm1" "Palm Model"
+"gui_parm2" "x"
+}
+// entity 41
+{
+"classname" "misc_model"
+"model" "models/mapobjects/signs/ceilingsign/ceilingsign.obj"
+"origin" "-464 -125.072 109.072"
+"angles" "0 0 30"
+"gui" "guis/signs/directional.gui"
+"name" "misc_model_10"
+"gui_parm1" "modelscale 0.5"
+"gui_parm2" "modelscale_vec"
+}
+// entity 42
+{
+"classname" "misc_model"
+"model" "models/mapobjects/lofi/suzanne/suzanne.glb"
+"origin" "-432 -88 32"
+"name" "misc_model_11"
+"angles" "0 90 0"
+"modelscale" "0.5"
+}
+// entity 43
+{
+"classname" "misc_model"
+"model" "models/mapobjects/lofi/suzanne/suzanne.glb"
+"origin" "-480 -88 32"
+"name" "misc_model_0"
+"angles" "0 90 0"
+"modelscale_vec" "2 1 1"
+}
+// entity 44
+{
+"classname" "light"
+"origin" "-340 0 208"
+"_color" "0.776471 0.776471 0.839216"
+"light" "225"
+"name" "light_19"
+"angles" "0 -90 -90"
 }
