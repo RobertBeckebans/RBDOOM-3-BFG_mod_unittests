@@ -170,7 +170,7 @@
 {
 "classname" "misc_model"
 "name" "func_static_2"
-"model" "models/mapobjects/pbr/materialorb/pbr-spheres.dae"
+"model" "models/mapobjects/pbr/materialorb/pbr-spheres.glb"
 "origin" "156 64 10"
 "angle" "270"
 }
