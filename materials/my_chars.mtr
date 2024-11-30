@@ -1,0 +1,421 @@
+models/characters/alien/alienA
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/alienA
+}
+
+models/characters/alien/alienB
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/alienB
+}
+
+models/characters/astro/astroFemaleA
+{
+	unsmoothedTangents
+	ricochet
+	clamp
+	metal
+	diffusemap	   models/characters/textures/astroFemaleA
+}
+
+models/characters/astro/astroFemaleB
+{
+	unsmoothedTangents
+	ricochet
+	clamp
+	metal
+	diffusemap	   models/characters/textures/astroFemaleB
+}
+
+models/characters/astro/astroMaleA
+{
+	unsmoothedTangents
+	ricochet
+	clamp
+	metal
+	diffusemap	   models/characters/textures/astroMaleA
+}
+
+models/characters/astro/astroMaleB
+{
+	unsmoothedTangents
+	ricochet
+	clamp
+	metal
+	diffusemap	   models/characters/textures/astroMaleB
+}
+
+models/characters/athlete/athleteFemaleBlue
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/athleteFemaleBlue
+}
+
+models/characters/athlete/athleteFemaleGreen
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/athleteFemaleGreen
+}
+
+models/characters/athlete/athleteFemaleRe/athleteFemaleRed
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/athleteFemaleRed
+}
+
+models/characters/athlete/athleteFemaleYellow
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/athleteFemaleYellow
+}
+
+models/characters/athlete/athleteMaleBlue
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/athleteMaleBlue
+}
+
+models/characters/athlete/athleteMaleGreen
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/athleteMaleGreen
+}
+
+models/characters/athlete/athleteMaleRed
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/athleteMaleRed
+}
+
+models/characters/athlete/athleteMaleYellow
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/athleteMaleYellow
+}
+
+models/characters/businessMale/businessMaleA
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/businessMaleA
+}
+
+models/characters/businessMale/businessMaleB
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/businessMaleB
+}
+
+models/characters/casualFemale/casualFemaleA
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/casualFemaleA
+}
+
+models/characters/casualFemale/casualFemaleB
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/casualFemaleB
+}
+
+models/characters/casualMale/casualMaleA
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/casualMaleA
+}
+
+models/characters/casualMale/casualMaleB
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/casualMaleB
+}
+
+models/characters/cyborg
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/cyborg
+}
+
+models/characters/fantasyFemale/fantasyFemaleA
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/fantasyFemaleA
+}
+
+models/characters/fantasyFemale/fantasyFemaleB
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/fantasyFemaleB
+}
+
+models/characters/fantasyMale/fantasyMaleA
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/fantasyMaleA
+}
+
+models/characters/fantasyMale/fantasyMaleB
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/fantasyMaleB
+}
+
+models/characters/farmer/farmerA
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/farmerA
+}
+
+models/characters/farmer/farmerB
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/farmerB
+}
+
+models/characters/militaryFemale/militaryFemaleA
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/militaryFemaleA
+}
+
+models/characters/militaryFemale/militaryFemaleB
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/militaryFemaleB
+}
+
+models/characters/militaryMale/militaryMaleA
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/militaryMaleA
+}
+
+models/characters/militaryMale/militaryMaleB
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/militaryMaleB
+}
+
+models/characters/racer/racerBlueFemale
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/racerBlueFemale
+}
+
+models/characters/racer/racerBlueMale
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/racerBlueMale
+}
+
+models/characters/racer/racerGreenFemale
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/racerGreenFemale
+}
+
+models/characters/racer/racerGreenMale
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/racerGreenMale
+}
+
+models/characters/racer/racerOrangeFemale
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/racerOrangeFemale
+}
+
+models/characters/racer/racerOrangeMale
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/racerOrangeMale
+}
+
+models/characters/racer/racerPurpleFemale
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/racerPurpleFemale
+}
+
+models/characters/racerPurpleMale
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/racerPurpleMale
+}
+
+models/characters/racer/racerRedFemale
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/racerRedFemale
+}
+
+models/characters/racer/racerRedMale
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/racerRedMale
+}
+
+models/characters/robot/robot3
+{
+	ricochet
+	clamp
+	metal
+	noselfShadow
+
+	diffusemap	models/characters/textures/robot3_d.tga
+	bumpmap		addnormals( models/characters/textures/robot3_ln.tga, heightmap( models/characters/textures/robot3_h.tga, 2 ) )
+    specularmap	models/characters/textures/robot3_s.tga
+
+}
+
+models/characters/robot/robot2
+{
+	ricochet
+	clamp
+	metal
+	noselfShadow
+	diffusemap	models/characters/textures/robot2_d.tga
+	bumpmap		addnormals( models/characters/textures/robot2_ln.tga, heightmap( models/characters/textures/robot2_h.tga, 2 ) )
+    specularmap	models/characters/textures/robot2_s.tga
+
+}
+
+models/characters/robot/robot1
+{
+	ricochet
+	clamp
+	metal
+	noselfShadow  
+	{
+		blend diffusemap
+		map	models/characters/textures/robot_d.tga
+		alphatest	.5
+	}
+
+	{
+		blend 	bumpmap
+		map		addnormals( models/characters/textures/robot_ln.tga, heightmap( models/characters/textures/robot_h.tga, 2 ) )
+	}
+	
+    specularmap	models/characters/textures/robot_s.tga
+
+}
+
+models/characters/robot/robot1_flat
+{
+	noselfShadow
+	ricochet
+	clamp
+	metal
+	diffusemap	models/characters/textures/robot.tga
+}
+
+models/characters/robot/robot2_flat
+{
+	noselfShadow
+	unsmoothedTangents
+	ricochet
+	clamp
+	metal
+	diffusemap	   models/characters/textures/robot2
+	//specularmap	models/characters/textures/robot2_s.tga
+}
+
+models/characters/robot/robot3_flat
+{
+	noselfShadow
+	unsmoothedTangents
+	ricochet
+	clamp
+	metal
+	diffusemap	   models/characters/textures/robot3
+	//specularmap	models/characters/textures/robot3_s.tga
+}
+
+models/characters/survivorFemale/survivorFemaleA
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/survivorFemaleA
+}
+
+models/characters/survivorFemale/survivorFemaleB
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/survivorFemaleB
+}
+
+models/characters/survivorMale/survivorMaleA
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/survivorMaleA
+}
+
+models/characters/survivorMale/survivorMaleB
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/survivorMaleB
+}
+
+models/characters/zombie/zombieA
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/zombieA
+}
+
+models/characters/zombie/zombieB
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/zombieB
+}
+
+models/characters/zombie/zombieC
+{
+	flesh
+	clamp
+	diffusemap	   models/characters/textures/zombieC
+}
+

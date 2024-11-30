@@ -1,0 +1,102 @@
+entityDef moveable_explodingbarrelX {
+	"editor_color"				"0 .5 .8"
+	"editor_mins"				"-16 -16 0"
+	"editor_maxs"				"16 16 48"
+	"editor_rotatable"			"1"
+	"use_aas"					"aas96"
+
+
+	"editor_usage"					"Moveable barrel. Works just like a func_moveable. However the barrel"
+	"editor_usage1"					"has special handling to make it appear more round. This version also explodes when damaged enough."
+	"editor_usage2"					"Only add model, model_detonate or model_burn or health to override defaults"
+	"editor_var burn"				"number of seconds to burn before exploding."
+	"editor_model model_damage"		"model to leave as damaged base"
+	"editor_model model_detonate"	"ips model to switch to for explosion."
+	"editor_model model_burn"		"ips model to show when on fire."
+	"editor_var def_debris"			"add as many as you like, debris1, debris2, etc.. "
+	"editor_var health"				"how much health the barrel has, default is 5. If burn is set to 1, the health is effectively doubled so you have to kill it twice to get the explosion"
+	"editor_var respawn"			"if non zero the number of seconds to respawn after killed"
+	"editor_var respawn_range"		"no player in distance range to actually respawn - default 256"
+	"editor_var respawn_again"		"try again in seconds if player in range - default 10"
+	"editor_var triggerTargets"		"if set to 1 will trigger targets after being killed"
+	"editor_mat mtr_lightExplode"	"light shader to use for explosion"
+	"editor_mat mtr_lightBurn"		"light shader to use for burning"
+	
+	"spawnclass"				"idExplodingBarrel"
+
+	"density"					"0.02"
+	"friction"					"0.2"
+	"bouncyness"				"0.4"
+	"def_splash_damage"			"damage_explodingbarrel"
+	"model"						"maps/testmaps/test_func_group1.exp_barrel.glb"
+	"def_debris"				"debris_barreltop2"
+	"def_debris1"				"debris_barrelpiece2"
+	"def_debris2"				"debris_barrelpiece2"
+	"def_debris3"				"debris_barrelpiece2"
+	"model_detonate"			"barrelexplosion.prt"
+	"skin"						"skins/exp_barrel_red"
+	"mtr_lightexplode"			"lights/impflash"
+	"light_radius"				"300"
+	"health"					"25"
+	"snd_explode"				"barrel_explosions"
+	"snd_bounce"				"metal_barrel_impact"
+	
+}
+
+model char_animTest {
+	mesh						maps/testmaps/test_func_group1.locationAnim.glb
+	anim	test				maps/testmaps/test_func_group1.transTest.glb
+	anim	rot					maps/testmaps/test_func_group1.Rotate_Assets.glb
+	//anim	scale				maps/testmaps/test_func_group1.transScale.glb
+
+}
+
+model	character_small {
+	mesh						maps/testmaps/test_func_group1.characterSmall.glb
+	
+	channel torso				( *HipsCtrl -*LeftUpLeg -*RightUpLeg)
+	channel legs				(origin *RightFootCtrl *LeftFootCtrl *LeftUpLeg *RightUpLeg)
+
+	anim af_pose				maps/testmaps/test_func_group1.Afpose.glb
+	anim ik_pose				maps/testmaps/test_func_group1.Afpose.glb
+
+	anim	attack				maps/testmaps/test_func_group1.Attack.glb
+	anim	walk				maps/testmaps/test_func_group1.Walk.glb
+	anim	idle				maps/testmaps/test_func_group1.Idle.glb
+	//anim	crouch				maps/testmaps/test_func_group1.Crouch.glb
+	//anim	crouchIdle			maps/testmaps/test_func_group1.CrouchIdle.glb
+	//anim	crouchWalk			maps/testmaps/test_func_group1.CrouchWalk.glb
+	//anim	death				maps/testmaps/test_func_group1.Death.glb
+	//anim	interactGround		maps/testmaps/test_func_group1.InteractGround.glb
+	//anim	interactStanding	maps/testmaps/test_func_group1.InteractStanding.glb
+	//anim	jump				maps/testmaps/test_func_group1.Jump.glb
+	//anim	kick				maps/testmaps/test_func_group1.Kick.glb
+	//anim	punch				maps/testmaps/test_func_group1.Punch.glb
+	//anim	steerLeft			maps/testmaps/test_func_group1.SteerLeft.glb
+	//anim	steerRight			maps/testmaps/test_func_group1.SteerRight.glb
+	//anim	racingIdle			maps/testmaps/test_func_group1.RacingIdle.glb
+	//anim	run					maps/testmaps/test_func_group1.Run.glb
+	anim	shoot				maps/testmaps/test_func_group1.Shoot.glb
+	//anim	raise				maps/testmaps/test_func_group1.WeaponRaise.glb
+}
+
+
+entityDef combatant_default {
+	"inherit"					"monster_default"
+	"spawn_anim"				"raise"
+	"bleed"						"1"
+	"def_projectile"			"projectile_sentry_bullet"
+	"smoke_wound_metal"			"bulletricochet.prt"
+	"blockedRadius"				"20"
+	"use_aas"					"aas48"
+	"skin"						"skins/models/characters/char_alienA"
+	"health"					"100"
+}
+
+entityDef ent_character_small {
+	"inherit"					"combatant_default"
+	"scriptobject"				"monster_zombie"
+	"model"						"character_small"
+	"use_aas"					"aas96"
+	"size"						"18 18 42"
+}
