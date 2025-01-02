@@ -1,218 +1,198 @@
-# Blender MTL File: 'sponza.blend'
-# Material Count: 25
+# Blender 4.2.2 LTS MTL File: 'sponza.blend'
+# www.blender.org
 
 newmtl models/mapobjects/sponza/arch
-Ns 225.000000
+Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd textures\\sponza_arch_diff.png
+map_Kd textures/sponza_arch_diff.png
 
 newmtl models/mapobjects/sponza/background
-Ns 225.000000
+Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd textures\\background.png
+map_Kd textures/background.png
 
 newmtl models/mapobjects/sponza/bricks
-Ns 225.000000
+Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd textures\\spnza_bricks_a_diff.png
+map_Kd textures/spnza_bricks_a_diff.png
 
 newmtl models/mapobjects/sponza/ceiling
-Ns 225.000000
+Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd textures\\sponza_ceiling_a_diff.png
+map_Kd textures/sponza_ceiling_a_diff.png
 
 newmtl models/mapobjects/sponza/chain
-Ns 225.000000
+Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd textures\\chain_texture.png
+map_Kd textures/chain_texture.png
 
 newmtl models/mapobjects/sponza/column_a
-Ns 225.000000
+Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd textures\\sponza_column_a_diff.png
+map_Kd textures/sponza_column_a_diff.png
 
 newmtl models/mapobjects/sponza/column_b
-Ns 225.000000
+Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd textures\\sponza_column_b_diff.png
+map_Kd textures/sponza_column_b_diff.png
 
 newmtl models/mapobjects/sponza/column_c
-Ns 225.000000
+Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd textures\\sponza_column_c_diff.png
+map_Kd textures/sponza_column_c_diff.png
 
 newmtl models/mapobjects/sponza/details
-Ns 225.000000
+Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd textures\\sponza_details_diff.png
+map_Kd textures/sponza_details_diff.png
 
 newmtl models/mapobjects/sponza/fabric_a
-Ns 225.000000
+Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd textures\\sponza_fabric_diff.png
+map_Kd textures/sponza_fabric_diff.png
 
 newmtl models/mapobjects/sponza/fabric_c
-Ns 225.000000
+Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd textures\\sponza_curtain_diff.png
+map_Kd textures/sponza_curtain_diff.png
 
 newmtl models/mapobjects/sponza/fabric_d
-Ns 225.000000
+Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd textures\\sponza_fabric_blue_diff.png
+map_Kd textures/sponza_fabric_blue_diff.png
 
 newmtl models/mapobjects/sponza/fabric_e
-Ns 225.000000
+Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd textures\\sponza_fabric_green_diff.png
+map_Kd textures/sponza_fabric_green_diff.png
 
 newmtl models/mapobjects/sponza/fabric_f
-Ns 225.000000
+Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd textures\\sponza_curtain_green_diff.png
+map_Kd textures/sponza_curtain_green_diff.png
 
 newmtl models/mapobjects/sponza/fabric_g
-Ns 225.000000
+Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd textures\\sponza_curtain_blue_diff.png
+map_Kd textures/sponza_curtain_blue_diff.png
 
 newmtl models/mapobjects/sponza/flagpole
-Ns 225.000000
+Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd textures\\sponza_flagpole_diff.png
+map_Kd textures/sponza_flagpole_diff.png
 
 newmtl models/mapobjects/sponza/floor
-Ns 225.000000
+Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd textures\\sponza_floor_a_diff.png
+map_Kd textures/sponza_floor_a_diff.png
 
 newmtl models/mapobjects/sponza/leaf
-Ns 225.000000
+Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
-d 1.000000
 illum 2
-map_Kd textures\\sponza_thorn_diff.png
-map_d textures\\sponza_thorn_mask.png
+map_Kd textures/sponza_thorn_diff.png
+map_d textures/sponza_thorn_mask.png
 
 newmtl models/mapobjects/sponza/lion
-Ns 225.000000
+Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd textures\\lion.png
+map_Kd textures/lion.png
 
 newmtl models/mapobjects/sponza/material__47
-Ns 225.000000
+Ns 250.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.588000 0.588000 0.588000
 Ks 1.000000 1.000000 1.000000
@@ -222,7 +202,7 @@ d 1.000000
 illum 2
 
 newmtl models/mapobjects/sponza/roof
-Ns 225.000000
+Ns 250.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.588000 0.588000 0.588000
 Ks 1.000000 1.000000 1.000000
@@ -232,45 +212,41 @@ d 1.000000
 illum 2
 
 newmtl models/mapobjects/sponza/vase
-Ns 225.000000
+Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd textures\\vase_dif.png
+map_Kd textures/vase_dif.png
 
 newmtl models/mapobjects/sponza/vase_hanging
-Ns 225.000000
+Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd textures\\vase_hanging.png
+map_Kd textures/vase_hanging.png
 
 newmtl models/mapobjects/sponza/vase_plant
-Ns 225.000000
+Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd textures\\vase_plant.png
+map_Kd textures/vase_plant.png
 
 newmtl models/mapobjects/sponza/vase_round
-Ns 225.000000
+Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd textures\\vase_round.png
+map_Kd textures/vase_round.png

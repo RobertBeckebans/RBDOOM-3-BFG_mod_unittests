@@ -8,12 +8,12 @@
 "_tb_def" "builtin:DOOM-3-slim.fgd"
 // brush 0
 {
-( -1940 0 0 ) ( -1940 1 0 ) ( -1940 0 1 ) common/clip [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
-( -80 -1060 0 ) ( -80 -1060 -1 ) ( -81 -1060 0 ) common/clip [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -416 0 0 ) ( -416 1 0 ) ( -416 0 1 ) common/clip [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -80 -736 0 ) ( -80 -736 -1 ) ( -81 -736 0 ) common/clip [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
 ( -80 0 -13 ) ( -81 0 -13 ) ( -80 -1 -13 ) common/clip [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
 ( -80 0 -3 ) ( -79 0 -3 ) ( -80 -1 -3 ) common/clip [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.5 0.5 0 0 0
-( -80 1220 0 ) ( -80 1220 1 ) ( -81 1220 0 ) common/clip [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
-( 1800 0 0 ) ( 1800 -1 0 ) ( 1800 0 1 ) common/clip [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( -80 688 0 ) ( -80 688 1 ) ( -81 688 0 ) common/clip [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
+( 416 0 0 ) ( 416 -1 0 ) ( 416 0 1 ) common/clip [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5 0 0 0
 }
 // brush 1
 {
@@ -162,8 +162,9 @@
 {
 "classname" "misc_model"
 "name" "func_static_1"
-"origin" "-15 -53 0"
-"model" "models/mapobjects/sponza/sponza.obj"
+"origin" "-21 -49 0"
+"model" "models/mapobjects/sponza/sponza.glb"
+"angles" "0 -90 0"
 }
 // entity 3
 {
@@ -179,4 +180,115 @@
 "light_radius" "2000 2000 2000"
 "light_center" "4 4 32"
 "parallel" "1"
+}
+// entity 4
+{
+"classname" "env_probe"
+"name" "env_probe_area_0_0"
+"origin" "0 -24 361"
+"spawnclass" "EnvironmentProbe"
+}
+// entity 5
+{
+"classname" "env_probe"
+"name" "env_probe_ingame_placed_0"
+"angle" "88.242188"
+"origin" "-7 244 38"
+"spawnclass" "EnvironmentProbe"
+}
+// entity 6
+{
+"classname" "env_probe"
+"name" "env_probe_ingame_placed_1"
+"angle" "89.121094"
+"origin" "-7 351 48"
+"spawnclass" "EnvironmentProbe"
+}
+// entity 7
+{
+"classname" "env_probe"
+"name" "env_probe_ingame_placed_2"
+"angle" "89.450684"
+"origin" "-10 72 47"
+"spawnclass" "EnvironmentProbe"
+}
+// entity 8
+{
+"classname" "env_probe"
+"name" "env_probe_ingame_placed_3"
+"angle" "89.450684"
+"origin" "-12 -71 48"
+"spawnclass" "EnvironmentProbe"
+}
+// entity 9
+{
+"classname" "env_probe"
+"name" "env_probe_ingame_placed_4"
+"angle" "91.867676"
+"origin" "-10 -206 38"
+"spawnclass" "EnvironmentProbe"
+}
+// entity 10
+{
+"classname" "env_probe"
+"name" "env_probe_ingame_placed_5"
+"angle" "90.219727"
+"origin" "-2 -357 42"
+"spawnclass" "EnvironmentProbe"
+}
+// entity 11
+{
+"classname" "env_probe"
+"name" "env_probe_ingame_placed_6"
+"angle" "90.219727"
+"origin" "-1 -515 48"
+"spawnclass" "EnvironmentProbe"
+}
+// entity 12
+{
+"classname" "env_probe"
+"name" "env_probe_ingame_placed_7"
+"angle" "89.588013"
+"origin" "176 -22 48"
+"spawnclass" "EnvironmentProbe"
+}
+// entity 13
+{
+"classname" "env_probe"
+"name" "env_probe_ingame_placed_8"
+"angle" "90.247192"
+"origin" "-178 -19 48"
+"spawnclass" "EnvironmentProbe"
+}
+// entity 14
+{
+"classname" "env_probe"
+"name" "env_probe_ingame_placed_9"
+"angle" "90.247192"
+"origin" "-177 -250 48"
+"spawnclass" "EnvironmentProbe"
+}
+// entity 15
+{
+"classname" "env_probe"
+"name" "env_probe_ingame_placed_10"
+"angle" "268.005981"
+"origin" "-178 222 48"
+"spawnclass" "EnvironmentProbe"
+}
+// entity 16
+{
+"classname" "env_probe"
+"name" "env_probe_ingame_placed_11"
+"angle" "83.869629"
+"origin" "163 184 42"
+"spawnclass" "EnvironmentProbe"
+}
+// entity 17
+{
+"classname" "env_probe"
+"name" "env_probe_ingame_placed_12"
+"angle" "87.940063"
+"origin" "174 -286 48"
+"spawnclass" "EnvironmentProbe"
 }

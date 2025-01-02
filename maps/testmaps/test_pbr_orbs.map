@@ -119,9 +119,9 @@
 // entity 6
 {
 "classname" "misc_model"
-"model" "models/mapobjects/pbr/materialorb/material-orb.obj"
+"model" "models/mapobjects/pbr/materialorb/material-orb-parented.glb"
 "origin" "16 -88 0"
-"angle" "270"
+"angle" "90"
 "skin" "skins/materialorb_wood.skin"
 "name" "misc_model_0"
 }
@@ -388,9 +388,9 @@
 // entity 34
 {
 "classname" "misc_model"
-"model" "models/mapobjects/pbr/materialorb/material-orb.obj"
+"model" "models/mapobjects/pbr/materialorb/material-orb-parented.glb"
 "origin" "80 -88 0"
-"angle" "270"
+"angle" "90"
 "name" "misc_model_2"
 }
 // entity 35
@@ -407,38 +407,38 @@
 // entity 36
 {
 "classname" "misc_model"
-"model" "models/mapobjects/pbr/materialorb/material-orb.obj"
+"model" "models/mapobjects/pbr/materialorb/material-orb-parented.glb"
 "origin" "-48 -88 0"
-"angle" "270"
+"angle" "90"
 "skin" "skins/materialorb_metal002.skin"
 "name" "misc_model_4"
 }
 // entity 37
 {
 "classname" "misc_model"
-"model" "models/mapobjects/pbr/materialorb/material-orb.obj"
+"model" "models/mapobjects/pbr/materialorb/material-orb-parented.glb"
 "origin" "-112 -88 0"
-"angle" "270"
+"angle" "90"
 "skin" "skins/materialorb_gold.skin"
 "name" "misc_model_5"
 }
 // entity 38
 {
 "classname" "misc_model"
-"model" "models/mapobjects/pbr/materialorb/material-orb.obj"
+"model" "models/mapobjects/pbr/materialorb/material-orb-parented.glb"
 "origin" "-176 -88 0"
-"angle" "270"
+"angle" "90"
 "skin" "skins/materialorb_brickwall"
 "name" "misc_model_9"
 }
 // entity 39
 {
 "classname" "misc_model"
-"model" "models/mapobjects/pbr/materialorb/material-orb.obj"
+"model" "models/mapobjects/pbr/materialorb/material-orb-parented.glb"
 "origin" "-240 -88 0"
 "skin" "skins/materialorb_leather"
 "name" "misc_model_7"
-"angles" "0 270 0"
+"angles" "0 90 0"
 }
 // entity 40
 {

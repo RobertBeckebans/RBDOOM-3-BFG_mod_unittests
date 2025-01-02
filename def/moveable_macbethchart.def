@@ -3,7 +3,7 @@
 entityDef moveable_macbethchart
 {
 	"inherit"							"moveable_base_fixed"
-	"model"								"models/mapobjects/pbr/macbethchart/macbethchart.obj"
+	"model"								"models/mapobjects/pbr/macbethchart/macbethchart.glb"
 	"density"							"0.01"
 	"friction"							"0.2"
 	"bouncyness"						"0.3"

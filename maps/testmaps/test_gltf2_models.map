@@ -488,3 +488,33 @@
 "name" "light_19"
 "angles" "0 -90 -90"
 }
+// entity 45
+{
+"classname" "env_probe"
+"name" "env_probe_1"
+"origin" "-384 64 56"
+}
+// entity 46
+{
+"classname" "env_probe"
+"name" "env_probe_2"
+"origin" "-192 64 56"
+}
+// entity 47
+{
+"classname" "env_probe"
+"name" "env_probe_3"
+"origin" "0 64 56"
+}
+// entity 48
+{
+"classname" "env_probe"
+"name" "env_probe_4"
+"origin" "-576 64 56"
+}
+// entity 49
+{
+"classname" "env_probe"
+"name" "env_probe_0"
+"origin" "-768 64 56"
+}
