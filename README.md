@@ -76,6 +76,11 @@ Here you can clone groups and the cloned instances are linked to the original gr
 
 <img src="https://i.imgur.com/D6ELTbH.png" width="384"> <img src="https://i.imgur.com/d6MW1Kz.png" width="384">
 
+## Panorama Skybox
+[ maps/testmaps/test_hdri.map ]
+
+<img src="https://i.imgur.com/TZ4BPt2.jpeg" width="384"> <img src="https://i.imgur.com/sYQAzYa.png" width="512">
+
 # Other Samples
 
 ## Crytek's Sponza Atrium

@@ -1,0 +1,39 @@
+
+textures/skies/farm_field_puresky
+{
+	qer_editorimage	env/hdri/farm_field_puresky_4k_ed.png
+
+	noFragment
+	noshadows
+	noimpact
+	forceOpaque		
+	
+	{
+		blend		add
+		
+		//hdriMap		env/hdri/farm_field_puresky_4k.hdr
+		//hdriMap		env/hdri/sunset_in_the_chalk_quarry_2k.hdr
+		panoramaMap	env/hdri/sunset_in_the_chalk_quarry_4k.png
+		//panoramaMap	env/hdri/farm_field_puresky_2k.png
+		
+		texgen		skybox
+		rgb 		0.5
+	}
+}
+
+textures/skies/sunset_in_the_chalk_quarry
+{
+	qer_editorimage	env/hdri/sunset_in_the_chalk_quarry_ed.png
+
+	noFragment
+	noshadows
+	noimpact
+	forceOpaque		
+	
+	{
+		blend		add
+		panoramaMap	env/hdri/sunset_in_the_chalk_quarry_4k.png
+		texgen		skybox
+		rgb 		0.5
+	}
+}
