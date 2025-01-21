@@ -10,9 +10,7 @@ textures/skies/farm_field_puresky
 	
 	{
 		blend		add
-		
 		hdriMap		env/hdri/farm_field_puresky_4k.hdr	
-		//hdriMap		env/hdri/rogland_clear_night_4k.hdr	
 		texgen		skybox
 		rgb 		0.075
 	}
@@ -29,11 +27,27 @@ textures/skies/rogland_clear_night
 	
 	{
 		blend		add
-		
-		//hdriMap		env/hdri/farm_field_puresky_4k.hdr	
 		hdriMap		env/hdri/rogland_clear_night_4k.hdr	
 		texgen		skybox
 		rgb 		0.5
+	}
+}
+
+textures/skies/sunny
+{
+	qer_editorimage	env/hdri/rosendal_plains_1_4k_ed.png
+
+	noFragment
+	noshadows
+	noimpact
+	forceOpaque		
+	
+	{
+		blend		add
+		
+		hdriMap		env/hdri/rosendal_plains_1_4k.hdr	
+		texgen		skybox
+		rgb 		1
 	}
 }
 

@@ -226,3 +226,15 @@
 "name" "env_probe_0"
 "origin" "568 296 72"
 }
+// entity 14
+{
+"classname" "monster_flying_cacodemon"
+"name" "monster_flying_cacodemon_0"
+"origin" "504 -72 288"
+}
+// entity 15
+{
+"classname" "monster_demon_vulgar"
+"name" "monster_demon_vulgar_0"
+"origin" "-40 -600 16"
+}
