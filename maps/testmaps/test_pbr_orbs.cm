@@ -141,11 +141,11 @@ collisionModel "worldMap" {
 	4 ( 29 -26 30 31 ) ( -0 -1 -0 ) -256 ( -960 256 0 ) ( 192 256 256 ) "textures/base_wall/snpanel2rust"
 	4 ( 25 26 27 28 ) ( -1 0 0 ) 960 ( -960 256 0 ) ( -960 272 256 ) "textures/base_wall/snpanel2rust"
 	4 ( -23 -19 -21 -24 ) ( 1 0 0 ) 192 ( 192 -128 -16 ) ( 192 256 0 ) "textures/base_wall/snpanel2rust"
-	4 ( -20 -16 -22 24 ) ( 0 1 0 ) 256 ( -960 256 -16 ) ( 192 256 0 ) "textures/base_wall/snpanel2rust"
-	4 ( 22 -15 -17 23 ) ( 0 0 1 ) 0 ( -960 -128 0 ) ( 192 256 0 ) "textures/cc0textures_floor/marble013"
+	4 ( -20 -16 -22 24 ) ( 0 1 0 ) 256 ( -960 256 -16 ) ( 192 256 -0 ) "textures/base_wall/snpanel2rust"
+	4 ( 22 -15 -17 23 ) ( 0 0 1 ) -0 ( -960 -128 0 ) ( 192 256 0 ) "textures/cc0textures_floor/marble013"
 	4 ( -18 -13 20 21 ) ( -0 -0 -1 ) 16 ( -960 -128 -16 ) ( 192 256 -16 ) "textures/base_wall/snpanel2rust"
 	4 ( 17 -14 18 19 ) ( -0 -1 -0 ) 128 ( -960 -128 -16 ) ( 192 -128 0 ) "textures/base_wall/snpanel2rust"
-	4 ( 13 14 15 16 ) ( -1 0 0 ) 960 ( -960 -128 -16 ) ( -960 256 0 ) "textures/base_wall/snpanel2rust"
+	4 ( 13 14 15 16 ) ( -1 0 0 ) 960 ( -960 -128 -16 ) ( -960 256 -0 ) "textures/base_wall/snpanel2rust"
 	4 ( -11 -7 -9 -12 ) ( 1 0 0 ) 192 ( 192 -128 256 ) ( 192 256 272 ) "textures/base_wall/snpanel2rust"
 	4 ( -8 -4 -10 12 ) ( 0 1 0 ) 256 ( -960 256 256 ) ( 192 256 272 ) "textures/base_wall/snpanel2rust"
 	4 ( 10 -3 -5 11 ) ( 0 0 1 ) 272 ( -960 -128 272 ) ( 192 256 272 ) "textures/base_wall/snpanel2rust"
@@ -190,10 +190,10 @@ collisionModel "worldMap" {
 		( -1 0 0 ) 960
 		( -0 -1 -0 ) 128
 		( -0 -0 -1 ) 16
-		( 0 0 1 ) 0
+		( 0 0 1 ) -0
 		( 0 1 0 ) 256
 		( 1 0 0 ) 192
-	} ( -960 -128 -16 ) ( 192 256 0 ) "solid,opaque"
+	} ( -960 -128 -16 ) ( 192 256 -0 ) "solid,opaque"
 	6 {
 		( -1 0 0 ) 960
 		( -0 -1 -0 ) 128

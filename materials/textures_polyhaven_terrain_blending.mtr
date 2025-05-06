@@ -1,0 +1,44 @@
+
+/*
+textures/polyhaven/terrain/rock/rocky_trail
+{
+	basecolormap textures/polyhaven/terrain/rock/rocky_trail_diff_1k
+	normalmap textures/polyhaven/terrain/rock/rocky_trail_nor_gl_1k
+}
+
+textures/polyhaven/terrain/snow/snow_02
+{
+	basecolormap textures/polyhaven/terrain/snow/snow_02_diff_1k
+	normalmap textures/polyhaven/terrain/snow/snow_02_nor_gl_1k
+}
+*/
+
+textures/polyhaven/terrain/rock/rocky_trail_snow_blend
+{
+	stone
+	qer_editorimage	textures/polyhaven/terrain/snow/snow_02_diff_1k
+
+	normalmap	textures/polyhaven/terrain/snow/snow_02_nor_gl_1k
+	{
+		blend	basecolormap
+		map		textures/polyhaven/terrain/snow/snow_02_diff_1k
+		vertexColor
+	}
+	{
+		blend	specularmap
+		map		_black
+		vertexColor
+	}
+
+	normalmap	textures/polyhaven/terrain/rock/rocky_trail_nor_gl_1k
+	{
+		blend	basecolormap
+		map		textures/polyhaven/terrain/rock/rocky_trail_diff_1k
+		inverseVertexColor
+	}
+	{
+		blend	specularmap
+		map		_black
+		inverseVertexColor
+	}
+}

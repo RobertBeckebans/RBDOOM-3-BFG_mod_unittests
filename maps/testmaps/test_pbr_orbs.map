@@ -3,7 +3,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"_tb_textures" "textures/base_wall;textures/cc0textures_floor"
+"_tb_textures" "textures/base_wall;textures/cc0textures_floor;textures/polyhaven/terrain/rock;textures/polyhaven/terrain/snow"
 "_tb_def" "builtin:DOOM-3-slim.fgd"
 "_tb_mod" "mod_unittests"
 // brush 0
@@ -456,7 +456,7 @@
 "classname" "misc_model"
 "model" "models/mapobjects/pbr/materialorb/material-orb-vertexcolors.glb"
 "origin" "-304 -88 0"
-"name" "misc_model_6"
+"name" "misc_model_11"
 "angles" "0 90 0"
 }
 // entity 42
@@ -467,6 +467,15 @@
 "angles" "0 0 30"
 "gui" "guis/signs/directional.gui"
 "gui_parm1" "Vertex Colors"
-"gui_parm2" ""
+"gui_parm2" "Terrain + Snow Blend"
 "name" "misc_model_8"
+}
+// entity 43
+{
+"classname" "misc_model"
+"model" "models/mapobjects/pbr/materialorb/material-orb-snowblend.glb"
+"origin" "-368 -88 0"
+"name" "misc_model_6"
+"angles" "0 90 0"
+"solid" "0"
 }

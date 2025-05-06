@@ -1,6 +1,6 @@
 LGRID "4"
 
-lightGridPoints { /* area = */ 0 /* numLightGridPoints = */ 147 /* imageSingleProbeSize = */ 32 /* imageBorderSize = */ 2 
+lightGridPoints { /* area = */ 0 /* numLightGridPoints = */ 147 /* imageSingleProbeSize = */ 16 /* imageBorderSize = */ 2 
 /* gridMins */ 	 ( -192 -128 0 )
 /* gridSize */ 	 ( 64 64 128 )
 /* gridBounds */ 7 7 3
