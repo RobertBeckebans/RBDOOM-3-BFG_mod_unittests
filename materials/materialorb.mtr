@@ -36,6 +36,13 @@ models/mapobjects/materialorb/pbrspheres
 	specularmap models/mapobjects/pbr/materialorb/images/pbrspheres_rmao.png
 }
 
+models/mapobjects/materialorb/debugao
+{
+	basecolormap _white
+	normalmap _flat
+	rmaomap models/mapobjects/pbr/materialorb/images/simple_baked_rmao.png
+}
+
 M_DebugVertexColor
 {
 	{

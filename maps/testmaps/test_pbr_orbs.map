@@ -468,13 +468,33 @@
 "gui" "guis/signs/directional.gui"
 "gui_parm1" "Vertex Colors"
 "gui_parm2" "Terrain + Snow Blend"
-"name" "misc_model_8"
+"name" "misc_model_12"
 }
 // entity 43
 {
 "classname" "misc_model"
 "model" "models/mapobjects/pbr/materialorb/material-orb-snowblend.glb"
 "origin" "-368 -88 0"
+"name" "misc_model_13"
+"angles" "0 90 0"
+"solid" "0"
+}
+// entity 44
+{
+"classname" "misc_model"
+"model" "models/mapobjects/signs/ceilingsign/ceilingsign.obj"
+"origin" "-464 -125.072 109.072"
+"angles" "0 0 30"
+"gui" "guis/signs/directional.gui"
+"gui_parm1" "AO Baking Test"
+"gui_parm2" ""
+"name" "misc_model_8"
+}
+// entity 45
+{
+"classname" "misc_model"
+"model" "models/mapobjects/pbr/materialorb/material-orb-baked.glb"
+"origin" "-432 -88 0"
 "name" "misc_model_6"
 "angles" "0 90 0"
 "solid" "0"
