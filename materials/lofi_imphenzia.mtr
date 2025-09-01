@@ -12,3 +12,25 @@ textures/lofi/imphenzia/palette01_256
 	
 	basecolormap textures/lofi/imphenzia/ImphenziaPalette01_256.png
 }
+
+// general Blender texture but I put them into the Imphenzia directory
+M_LoFi_UVGrid256
+{
+	qer_editorImage textures/lofi/blender/uvgrid_256.png
+	
+	basecolormap textures/lofi/blender/uvgrid_256.png
+}
+
+M_LoFi_UVGrid1024
+{
+	qer_editorImage textures/lofi/blender/uvgrid_1024.png
+	
+	basecolormap textures/lofi/blender/uvgrid_1024.png
+}
+
+M_LoFi_ColorGrid256
+{
+	qer_editorImage textures/lofi/blender/colorgrid_256.png
+	
+	basecolormap textures/lofi/blender/colorgrid_256.png
+}
